@@ -1,5 +1,3 @@
-
-
 title: intro
 ---
 <<declare $location = "">>
@@ -7,7 +5,7 @@ title: intro
 <<declare $emotion to "">>
 <<set $location to "rain">>
 03.03. 2023 - Hamburg 
-Weather: Rainy
+Weather - Rainy
 <<set $location to "flat">>
 <<set $character to "main">>
 You are exhausted from your move. 800 km in one day and carrying all of your belongings
@@ -69,7 +67,7 @@ zzZZZzzz
 <<jump intro4>>
 ===
 
-title: intro4 
+title: intro4
 ---
 Your phone rings in the typical Android way. A soft jingle, that lets you oversleep 
 from to time because it seriously isn't stressful or loud enough to wake you up. 
