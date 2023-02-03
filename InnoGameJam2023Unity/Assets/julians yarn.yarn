@@ -1,0 +1,54 @@
+title: DJ_Intro
+position: -23,-50
+---
+You standing at the Übel and Gefährlich waitng for someone to arrive.
+A man in his mid thirites comes out of the side entrace.
+He wears a snapback(tm) and has a noticedable bad posture.
+
+DJ: Hey man, you got fire?
+-> "Uh,Yeah, here you go."
+    DJ: Ah thanks.
+-> "I don't smoke-" 
+    DJ: Oh wait I got one my self. 
+
+DJ: You also waiting for Matze?
+Player: Who?
+DJ: You don't belong to the crew?
+
+-> "I don't work here."
+    <<jump DJ_ShowBiz_Lecture>>>
+
+-> "Oh Matze, yeah... Haha!" (lie)
+    <<jump DJ_LieAboutKnowingMatze>>
+
+===
+title: DJ_ShowBiz_Lecture
+position: 275,52
+---
+DJ: Ah, to bad. 
+DJ: I think you missing out.
+DJ: It's so cool working in showbiz.
+
+-> "What is your part here?""
+    DJ: I'm the act for tonight here.
+    DJ: My name is DJ Nose.
+-> "Really?"
+    DJ: Yeah, do I look like boring to you?
+-> "I heard it's stressfully.""
+    DJ: Yeah it is, but man, its so worth it!!
+
+
+===
+
+title: DJ_LieAboutKnowingMatze
+position: 272,-147
+---
+DJ: Yeah, can you believe this place is out of duct tape?
+DJ: I think highly of this place, but this is disapointing.
+DJ: Man I played all these fesitvals known to man.
+
+-> Let him continue.
+-> Like what?
+    DJ: Fusion 2022, man!
+
+===
