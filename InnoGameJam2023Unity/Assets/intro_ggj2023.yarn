@@ -101,10 +101,16 @@ You jump unter the shower, shove some of the sweets from the gift basket, your p
 own flat, into your mouth and get dressed in your feel good clothes. 
 Your favorite scarf, your mom gave you 5 years ago, lets you feel nostalgic, as you wrap it around your neck. 
 You open your phone to check out "The best insider tipps for new Hamburgers"
-Which place of Hamburg do you wanna explore first?
+<<jump intro6>>
+===
+title: intro6
+---
+//evtl besser formulieren
+Which place of Hamburg do you wanna explore?
 -> Ohlsdorf cemetery 
     <<jump Granny_Intro>>
 -> Chug Club in St. Pauli
+    <<jump chug1>>
 -> Feldstraße in St. Pauli
     <<jump DJ_Intro>>
 -> Cafe in Ottensen

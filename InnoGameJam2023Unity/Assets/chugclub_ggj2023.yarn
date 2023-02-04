@@ -208,7 +208,7 @@ He places 3 small glasses on the designated areas of the sheets, one of them top
 ===
 
 title: chugDrinkYN4
-position: 1388,-89
+position: 1861,-780
 ---
 You take a few pictures with your phone. 
 Leonie: Ok, this is better than taking photos of the Penny-Markt.
@@ -266,6 +266,7 @@ They take another sip from one of their fancy chug glasses.
 ===
 
 title: robynChugPlace1
+position: -504,715
 ---
 <<set $emotion to "Robynsmile">>
 Robyn/Stranger: Glad you asked!
@@ -280,6 +281,7 @@ Robyn/Stranger: Is there anything else you wanna know?
 ===
 
 title: robynTapwater1
+position: 2032,55
 ---
 Robyn/Stranger: Eh... Well yeah. I mean it's on the table 
 They look at you questioningly
@@ -288,6 +290,7 @@ Robyn/Stranger: Is there anything else you wanna know?
 ===
 
 title: robynName1
+position: 718,485
 ---
 Robyn: I am Robyn, pronouns are they/them please <3
 <<set $emotion to "Robynsmile">>
@@ -311,6 +314,7 @@ Leonie:
 ===
 
 title: robynShowMe1
+position: 975,-74
 ---
 Robyn: Yeah! Sounds good! What do you like to see? What did you like in Stuttgart?
 Leonie: They definitely didn't have these Chugs. These are really really good. Thanks for recommenden them to me.
@@ -323,10 +327,30 @@ Leonie:
 //+0
 <<jump LeonieClosed1>>
 -> Can we maybe check on our phones whats available in Hamburg. I am really open to new things.
-<<jump LeonieLukewarm1>>
+//+1
+<<jump LeonieOpen1>>
+===
+
+title: robynNope1
+position: 1198,369
+---
+Robyn: Okay, we can change that! What do you like to see? What did you like in Stuttgart?
+Leonie: They definitely didn't have these Chugs. These are really really good. Thanks for recommenden them to me.
+<<set $emotion to "Leonieexcited">>
+Leonie: 
+-> I liked museums, fleamarkets and to visit friends in their flats. But I am pretty open to see lots of new things. 
+//+2
+<<jump LeonieOpen1>>
+-> I don't know. I didn't do much in Stuttgart apart from chilling at home.
+//+0
+<<jump LeonieClosed1>>
+-> Can we maybe check on our phones whats available in Hamburg. I am really open to new things.
+//+1
+<<jump LeonieOpen1>>
 ===
 
 title: LeonieOpen1
+position: 1771,-367
 ---
 Robyn: Sounds cool. There are several fleamarkts here. Even one in the evening at Rindermarkthalle on Wednesday. 
 Robyn: Since tomorrow is sunday, do you wanna go to see some Art? 
@@ -345,7 +369,47 @@ Leonie:
 ===
 
 title: LeonieOpen2
+position: 1877,-575
 ---
 Robyn: Yayy, lets have another toast. 
-They drank until it was pretty late and left the Chug Club happy to have made another friend
+You drank until it was pretty late and left the Chug Club happy to have made another friend. 
+Luckily it was Saturday so the U3 was still running and you got home safely and fell to sleep pretty fast.
+<<jump intro6>>
+===
+
+title: LeonieWhatsapp1
+position: 2031,-201
+---
+Robyn: Okay sure, are you up for another Chug? 
+You drank until it was pretty late and left the Chug Club happy to have made another friend. 
+Luckily it was Saturday so the U3 was still running and you got home safely and fell to sleep pretty fast.
+<<jump intro6>>
+===
+
+title: LeonieInsta1
+position: 2025,-378
+---
+Robyn: Okay sure, just hit me up. 
+You finished your drink and left the Chug Club happy to have made contact to a person in Hamburg. 
+Luckily it was Saturday so the U3 was still running and you got home safely and fell to sleep pretty fast.
+<<jump intro6>>
+===
+
+title: LeonieClosed1
+position: 1997,261
+---
+Robyn: So you just sat at home a lot? Lets exchange Insta to see what you coukd like. 
+Leonie: Yes, lets do that.
+You finished your drink and left the Chug Club happy to have made contact to a person in Hamburg. 
+Luckily it was Saturday so the U3 was still running and you got home safely and fell to sleep pretty fast.
+<<jump intro6>>
+===
+title: robynWrite1
+position: 1582,666
+---
+Robyn: Okay sure, let me write something down. 
+Robyn took your napkin and scribbled some locations on it.
+You finished your drink and left the Chug Club happy to have made contact to a person in Hamburg. 
+Luckily it was Saturday so the U3 was still running and you got home safely and fell to sleep pretty fast.
+<<jump intro6>>
 ===
