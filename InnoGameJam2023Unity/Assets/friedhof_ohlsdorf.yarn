@@ -5,8 +5,8 @@ position: -198,297
 <b> BOLD</b>
 Ohlsdorf, graveyard.
 <<SetBackground black>>
-You wanted to check this place out. 
-If you look at Google Maps, it is the most striking place, so why not pay it a visit?
+You felt like your monstera alone is not green enough, you crave for some more nature around you. 
+After checking Google Maps, it is the most striking place, so why not pay it a visit?
 After you arived, you strol around for a bit.
 <<SetBackground Ohlsdorf>>
 You come along a row of graves.
