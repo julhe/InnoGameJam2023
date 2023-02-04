@@ -9,11 +9,7 @@ You remember the documentary you saw about the Penny supermarket at the heart of
 Maybe you'll be able to take a picture of it to show it to your friends on WhatApp. 
 
 //- side street of the Reeberbahn
-// female owned from a woman who wanted only her vision without any partners or even architects from the outside (Bettina Kupsa/Betty)
-//- serves mezcal in different styles
-//- cozy
-//- smokers bar
-//- small portions of alcohol
+
 <<jump robyn1>>
 ===
 
@@ -127,13 +123,13 @@ position: -134,152
     <<jump robynDrink1>>
 //+1
 -> Leonie: This place looks fancy. Is there anything I should know about it? 
-    <<jump robynChugPlace>>
+    <<jump robynChugPlace1>>
 //+1
 -> Leonie: Is the tap water for free?
-    <<jump robynTapwater>>
+    <<jump robynTapwater1>>
 //+0
 -> Leonie: How about you? Are you from here? What's your name?
-    <<jump robynName>>
+    <<jump robynName1>>
 //+2
 ===
 
@@ -262,6 +258,37 @@ Robyn/Stranger: ...
 Robyn/Stranger: What was your name again?
 <<set $emotion to "Leonieexcited">>
 Leonie: Haha, its Leonie, thanks for the suggestion. I am so excited for the drinks!
+Robyn/Stranger: You're welcome
+<<set $emotion to "Robynexcited">>
+Robyn/Stranger: Is there anything else you wanna know?
+They take another sip from one of their fancy chug glasses.
 <<jump chugDrinkYN4>>
 ===
 
+title: robynChugPlace1
+---
+<<set $emotion to "Robynsmile">>
+Robyn/Stranger: Glad you asked!
+Robyn/Stranger: This place is female owned by Betty, who had her own vision about it.
+Robyn/Stranger: She made the Chug Club without any partners or even architects from the outside
+Robyn/Stranger: They serve Mezcal and Tequila in different styles. They even won prizes with their concept of serving small cocktails to make it possible for everyone to get to know different tastes and try new things.
+Robyn/Stranger: As you have probably noticed, its pretty cozy here. It's actually one of my favorite places in Hamburg. 
+<<set $emotion to "Robynexcited">>
+Robyn/Stranger: And I can smoke here so - perfect for me <3.
+Robyn/Stranger: Is there anything else you wanna know?
+<<jump chugMC4>>
+===
+
+title: robynTapwater1
+---
+Robyn/Stranger: Eh... Well yeah. I mean it's on the table 
+They look at you questioningly
+Robyn/Stranger: Is there anything else you wanna know?
+<<jump chugMC4>>
+===
+
+title: robynName1
+---
+Robyn: 
+//How about you? Are you from here? What's your name?
+===
