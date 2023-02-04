@@ -36,6 +36,7 @@ your many new aquaintances.
 But enough for today!
 Slowly you climb into your bed - the only piece of furniture that is already in place 
 You turn off the light, 
+<<ShowCharacter Monstera false>>
 <<SetBackground black>>
 pull the blanket over your chin, and 
 close your eyes.
