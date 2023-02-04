@@ -1,0 +1,48 @@
+
+title: Granny_Intro
+position: -198,297
+---
+Ohlsdorf, graveyard.
+You wanted to check this place out. 
+If you look at Google Maps, it is the most striking place, so why not pay it a visit?
+
+You pass by an old lady, shes taping on her phone.
+Just as you pass her by...
+
+Granny: Young lady, could you help me with my phone?
+
+-> "Okay, but just for a moment."
+-> Ignore her
+    You want to but can't. Who woudn't help an old lady?
+    Shes propably trying to visit the grave of her relatives.
+    Have you no heart?
+
+Granny: I wan't to text my son. But it says-
+Shes adjusting her glass
+Granny: You are not part of this WhatsApp group.
+<<jump Granny_PostIntro>>
+
+===
+
+
+title: Granny_PostIntro
+position: 54,295
+---
+
+-> "Hm, Can you show me your phone?"
+    She steps beside you, holder her phone closer to you.
+    You look at the screen. Her font size of the letter barely make the word "screen real-estate" sound like a joke.
+    It doesn't reveal any new information: she's not part of that WhatsApp group.
+    <<jump Granny_PostIntro>>
+-> "It means that you are not part of that whatsapp group I guess?"
+    Granny: But I know these people!
+    <<jump Granny_Discussion>>
+
+===
+
+title: Granny_Discussion
+position: 307,297
+---
+
+
+===

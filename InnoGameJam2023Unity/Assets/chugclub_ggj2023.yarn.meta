@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0a39f480c5e65234998569127198d729
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  LastImportHadImplicitStringIDs: 0
+  LastImportHadAnyStrings: 0
+  isSuccessfullyParsed: 0
+  parseErrorMessages:
+  - "Assets/chugclub_ggj2023.yarn: 22:48: Error: extraneous input '<EOF>' expecting
+    {ID, '---'}\r\nRobyn: I just got the smoke into the wrong hole.\r\n                                               
+    \r\n"
