@@ -17,8 +17,8 @@ Ottensen is a part of Altona, one of the 104 quarters of Hamburg.
 The café is filled with wooden furniture. You could say that it has a hipster touch to it. 
 It's pretty cozy so, you sit down with your Laptop. 
 There was only one free spot.
-Next to you is young man, he has a camera hanging around his neck.
-The camera especially catches your eye, it is not the usual kind of digital camera.
+Next to you is young man, who has a camera hanging around his neck.
+The camera especially catches your eye, it is not the kind of camera you usually see.
 THAT ONE is vintage.
 <<jump Cafe_Opener>>
 
@@ -56,14 +56,16 @@ Leonie: Oh, yeah... hi, I'm Leonie.
 title: Cafe_Conversation
 position: 418,-55
 ---
--> How did you got that camera?
+-> How did you get that camera?
     Mert: It was a gift, from my unkle.
     // his uncle was a refuge from the iran revolution?
     <<jump Cafe_Conversation>>
--> What is that book?
+-> Your book also seems interesting. What is it about?
     Mert: I just got this from the university library. 
-    Mert: I'm a photography student.
+    Mert: I'm a photography student and especially interested architecture. 
+    Mert: Thats why this one was intruiging.
     Leonie: Oh cool!
+    //<<SetAnimation Mert >>
     He smiles.
     Mert: Thanks!
     Mert: We have an exhibition runing.
