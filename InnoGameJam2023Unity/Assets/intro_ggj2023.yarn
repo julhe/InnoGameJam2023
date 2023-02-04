@@ -1,16 +1,16 @@
 title: intro
 ---
 
-<<declare $character to "">>
 <<declare $emotion to "">>
 //<<set $location to "rain">> NICE TO HAVE
 03.03. 2023 - Hamburg 
 Weather - Rainy
 <<SetBackground home>>
-<<set $character to "main">>
+<<ShowCharacter Leonie true>>
 You are exhausted from your move. 800 km in one day and carrying all of your belongings
 into and out of the truck was harder than you thought. 
 The furniture is half built and there are boxes everywhere. 
+<<ShowCharacter Monstera true>>
 The monstera your parents gifted you is in dire need of water.
 <<jump MC1>>
 ===
@@ -36,9 +36,11 @@ your many new aquaintances.
 But enough for today!
 Slowly you climb into your bed - the only piece of furniture that is already in place 
 You turn off the light, 
+<<ShowCharacter Monstera false>>
 <<SetBackground black>>
 pull the blanket over your chin, and 
 close your eyes.
+<<ShowCharacter Leonie false>>
 <<jump MC2>>
 ===
 
@@ -49,7 +51,9 @@ Leonie: Maybe I can even meet new people.
 Leonie: I can unbox my stuff anytime anyways.
 Leonie: When do I want to get up? 
 <<SetBackground home>>
+<<ShowCharacter Leonie true>>
 Leonie: 10 sounds good...
+<<ShowCharacter Leonie false>>
 <<jump intro3>>
 ===
 
@@ -74,7 +78,7 @@ Your phone rings in the typical Android way. A soft jingle, that lets you oversl
 from to time because it seriously isn't stressful or loud enough to wake you up. 
 <<SetBackground home>>
 This time it worked like a charm. You open your eyes.
-<<set $character to "main">>
+<<ShowCharacter Leonie true>>
 A little bit disoriented you stare into the room. 
 Your gaze lingers on the unopened boxes. 
 <<jump MC4>>
@@ -92,7 +96,7 @@ Leonie: No slacking off gurl ^_^! Time to get ready.
 
 title: intro5
 ---
-//Ausblenden des Characters
+<<ShowCharacter Leonie false>>
 You jump unter the shower, shove some of the sweets from the gift basket, your parents gave you for your first 
 own flat, into your mouth and get dressed in your feel good clothes. 
 Your favorite scarf, your mom gave you 5 years ago, lets you feel nostalgic, as you wrap it around your neck. 
