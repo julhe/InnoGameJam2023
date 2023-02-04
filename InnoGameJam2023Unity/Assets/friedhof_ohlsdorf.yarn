@@ -2,16 +2,16 @@
 title: Granny_Intro
 position: -198,297
 ---
-
-
 <b> BOLD</b>
 Ohlsdorf, graveyard.
 <<SetBackground black>>
 You wanted to check this place out. 
 If you look at Google Maps, it is the most striking place, so why not pay it a visit?
-
+After you arived, you strol around for a bit.
+<<SetBackground Ohlsdorf>>
+You come along a row of graves.
 You pass by an old lady in front of a grave with fresh flowers.
-Shes taping on her phone.
+Shes taping on her phone and seems upset.
 Just as you pass her by...
 
 Granny: Young lady, could you help me this?
@@ -25,34 +25,101 @@ Granny: Young lady, could you help me this?
 Granny: I wan't to take a picture and send it to my family. But it says...
 She's adjusting her glass.
 Granny: ...you are not part of this group.
-
-<<jump Granny_PostIntro>>
+<<jump Granny_Phone>>
 
 ===
 
-title: Granny_PostIntro
+title: Granny_Phone
 position: 46,297
 ---
-
--> "Hm, Can you show me your phone?"
+She pulls out a hankerchief and sneezes into it.
+-> "Hm, Can you show me your phone?" (Continue)
     She steps beside you, holder her phone closer to you.
-    It doesn't reveal any new information though: she's not part of the group "+00491...".
-    The enourmus font size make the word "screen real-estate" sound like a joke.
-    // loop this
-    <<jump Granny_PostIntro>>
--> "It means that you are not part of that group I guess?" (Continue)
-    Granny: But this is my family!
-
+    On her phone screen, you make out the familiar layout of an instant messanger.
+    On the top it reads: <i>Not part of the group "+00491...".</i>
+    You can't read more as the enourmus font size make the word "screen real-estate" sound like a joke.
     <<jump Granny_Discussion>>
-
+-> "It means that you are not part of that group, I guess?" 
+    Granny: But why? This is my family!
+    <<jump Granny_Phone>>
 ===
 
 title: Granny_Discussion
 position: 284,297
 ---
-
 -> "Maybe you left the group on accident?"
+    Granny: Did I?
+    Granny: I get so confused with this thing. :( 
+    She's sounds almost whiney.
+    <<jump Granny_Discussion>>
+-> "What was the last thing you wrote?" (Continue)
+    Granny: Well I wanted to tell them that I'm a little sick and..
+    She scrolls up the text messages. Her last message appears.
+    It reads - <i>Waltraut: *PukeEmoji* *PukeEmoji* *PukeEmoji* </i>
+    Granny: What? No, no, no thats surley NOT wanted to write.
+    <<jump Granny_Son>>
+===
 
--> "Maybe they threw you out"
+title: Granny_Son
+position: 530,299
+---
+    
+Player: "Who made this group?"
+Granny: My son.
+Granny: If I wrote that...
+The topic makes her visibly uncomftable.
+Player: I mean maybe, that came off as offensive...
+Player: Like me...
+She seems slightly more uncomftable.
 
+Player: ALTROUGHT it's odd to throw someone out for this.
+Granny: You mean...
+
+-> "Maybe you should call him?" (Continue)
+    <<jump Granny_TextSon>>
+-> "Maybe you should text him?" (Continue)
+    Granny: I can try.
+    <<jump Granny_CallSon>>
+===
+
+title: Granny_TextSon
+position: 971,309
+---
+Shes writing a message in a slighty tiring pace.
+// TODO: could to more expose here.
+
+// TODO: Work-In-Progress
+Granny: I still wanna take a picture of the grave.
+Granny: Can you show me how.
+Player: Yes.
+
+You help her take a picture of the grave.
+
+<<jump Granny_Picture>>
+===
+
+title: Granny_CallSon
+position: 974,86
+---
+Granny: Now?
+Granny: I mean, hes propably at work.
+She taps on her phone a few times and starts holdig it against her ear.
+Nothing happens, after a short while she drops her arm.
+Granny: Hes not picking up.
+Player: You could text him?
+Granny: Of course!
+<<jump Granny_TextSon>>
+===
+
+title: Granny_Picture
+position: 1256,324
+---
+
+-> "Such pretty flowers"
+    Granny: Thank you! :)
+    <<jump Granny_Picture>>
+
+-> "I've got to go!"
+    Granny: Thank you so much for your help!
+    END
 ===
