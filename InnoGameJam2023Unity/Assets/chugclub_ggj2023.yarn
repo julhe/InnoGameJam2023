@@ -18,7 +18,85 @@ Maybe you'll be able to take a picture of it to show it to your friends on WhatA
 
 title: robyn1
 ---
-Robyn: (cough cough)
-Robyn: Don't look so scared, I am not sick. 
-Robyn: I just got the smoke (couch) into the wrong hole.
+Stranger: (cough cough)
+Stranger: Don't look so scared, I am not sick. 
+Stranger: I just got the smoke (cough) into the wrong hole.
+Stranger: (cough)
+Stranger: (cough, cough, COUGH)
+Stranger: (cOuGh)
+Stranger:...
+<<jump chugMC1>>
 ===
+
+title: chugMC1
+---
+Leonie: Are you really okay?
+Leonie: They have Tap Water here. 
+<<jump chug2>>
+===
+
+title: chug2
+---
+You take the water decanter from the bar, fill some water in a small glas and hand it to 
+the coughing stranger.
+<<jum robyn2>>
+===
+title: robyn2
+---
+Stranger: (chug, chug, chug... gulp)
+Stranger: Thanks!
+<<set $emotion to "robynsmile">>
+Stranger: That helped. 
+<<jump chug3>>
+===
+
+title: chug3
+---
+<<set $emotion to "robynstandard">>
+
+The stranger stops coughing and takes a sip of their small drink, which is topped with 
+purple foam. They notice you staring at their drink.
+<<jump robyn3>>
+===
+
+title: robyn3
+---
+Stranger: Is this your first time here? 
+<<set $emotion to "robynsmile">>
+<<jump chugMC2>>
+===
+
+title: chugMC2
+---
+Leonie: Yes.
+Leonie: I just moved here yesterday. 
+//if etc. Tag ausrechnen
+<<jump robyn4>>
+===
+
+title: robyn4
+---
+Robyn: Oh! So you don't know anything about Hamburg yet. 
+Robyn: Apart from the usual touristy stuff right?
+<<jump chug4>>
+===
+
+title: chug4
+---
+<<set $emotion to "leoniesmile">>
+You nod and take the glass of water the stranger just handed you.
+<<jump robyn5>>
+===
+
+title: robyn5
+---
+Robyn: Whoah and this place was one of the first ones you visited after moving here? 
+Robyn: Amazing! Good Choice <<set §emotion to "excitedrobyn">>
+Robyn: Do you know anything about this place? Did you check out the menu?
+<<jump MC5>>
+===
+
+title: MC5
+---
+
+
