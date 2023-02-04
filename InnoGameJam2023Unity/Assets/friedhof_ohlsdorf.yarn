@@ -6,11 +6,12 @@ position: -198,297
 Ohlsdorf, graveyard.
 <<SetBackground black>>
 You felt like your monstera alone is not green enough, you crave for some more nature around you. 
-After checking Google Maps, it is the most striking place, so why not pay it a visit?
-After you arived, you stroll around for a bit.
+You find the the Ohlsdorf Cemetery on Google maps. They wrote that it's the
+biggest park cemetery in the world. You found out that it exists since 1877.
+So why not pay it a visit?
 <<SetBackground Ohlsdorf>>
-You come along a row of graves.
-You pass by an old lady in front of a grave with fresh flowers.
+You start strolling around and come along a row of graves,
+where an old lady stands in front of one of them with fresh flowers.
 Shes taping on her phone and seems upset.
 Just as you pass her by...
 
@@ -118,7 +119,7 @@ After a short while she drops her arm.
 Granny: Hes not picking up.
 Leonie: You could text him?
 Granny: Of course!
-//eotion neutral
+//emotion neutral
 <<jump Granny_TextSon>>
 ===
 
