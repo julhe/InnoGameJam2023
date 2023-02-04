@@ -2,6 +2,7 @@
 title: Granny_Intro
 position: -198,297
 ---
+<b> BOLD</b>
 Ohlsdorf, graveyard.
 You wanted to check this place out. 
 If you look at Google Maps, it is the most striking place, so why not pay it a visit?
@@ -21,12 +22,13 @@ Granny: Young lady, could you help me this?
 Granny: I wan't to take a picture and send it to my family. But it says...
 She's adjusting her glass.
 Granny: ...you are not part of this group.
+
 <<jump Granny_PostIntro>>
 
 ===
 
 title: Granny_PostIntro
-position: 54,296
+position: 46,297
 ---
 
 -> "Hm, Can you show me your phone?"
@@ -42,7 +44,7 @@ position: 54,296
 ===
 
 title: Granny_Discussion
-position: 307,297
+position: 284,297
 ---
 
 -> "Maybe you left the group on accident?"
