@@ -1,6 +1,5 @@
-
-
 title: intro
+position: -5,-384
 ---
 <<declare $location = "">>
 <<declare $character to "">>
@@ -19,6 +18,7 @@ The monstera your parents gifted you is in dire need of water.
 ===
 
 title: MC1
+position: -8,-202
 ---
 
 <<set $emotion to "exhausted">>
@@ -30,6 +30,7 @@ I miss them.
 ===
 
 title: intro2
+position: 1,22
 ---
 You look around your new flat which is small, 
 <<set $emotion to "standard">> 
@@ -46,6 +47,7 @@ close your eyes.
 ===
 
 title: MC2
+position: 1,225
 ---
 I need to check out the city tomorrow and send everyone nice pictures. 
 Maybe I can even meet new people. 
@@ -57,6 +59,7 @@ When do I want to get up?
 ===
 
 title: intro3
+position: 10,411
 ---
 <<set $location to "black">>
 You fall asleep almost instantly in your warm bed. 
@@ -64,12 +67,14 @@ You fall asleep almost instantly in your warm bed.
 ===
 
 title: MC3
+position: 38,625
 ---
 zzZZZzzz
 <<jump intro4>>
 ===
 
-title: intro4 
+title: intro4
+position: 44,804
 ---
 Your phone rings in the typical Android way. A soft jingle, that lets you oversleep 
 from to time because it seriously isn't stressful or loud enough to wake you up. 
