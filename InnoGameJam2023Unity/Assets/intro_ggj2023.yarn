@@ -1,12 +1,11 @@
 title: intro
-position: -5,-384
 ---
 <<declare $location = "">>
 <<declare $character to "">>
 <<declare $emotion to "">>
 <<set $location to "rain">>
 03.03. 2023 - Hamburg 
-Weather: Rainy
+Weather - Rainy
 <<set $location to "flat">>
 <<set $character to "main">>
 You are exhausted from your move. 800 km in one day and carrying all of your belongings
@@ -18,19 +17,17 @@ The monstera your parents gifted you is in dire need of water.
 ===
 
 title: MC1
-position: -8,-202
 ---
 
 <<set $emotion to "exhausted">>
-Man I wish I'd already knew people from here. Carrying all the boxes with only 
-mom, dad and Klement really drained my whole energy. At least at home I had my friends to help me. 
+Leonie: Man I wish I'd already knew people from here. Carrying all the boxes with only 
+Leonie: mom, dad and Klement really drained my whole energy. At least at home I had my friends to help me. 
 <<set $emotion to "sad">>
-I miss them. 
+Leonie: I miss them. 
 <<jump intro2>>
 ===
 
 title: intro2
-position: 1,22
 ---
 You look around your new flat which is small, 
 <<set $emotion to "standard">> 
@@ -47,19 +44,17 @@ close your eyes.
 ===
 
 title: MC2
-position: 1,225
 ---
-I need to check out the city tomorrow and send everyone nice pictures. 
-Maybe I can even meet new people. 
-I can unbox my stuff anytime anyways.
-When do I want to get up? 
+Leonie: I need to check out the city tomorrow and send everyone nice pictures. 
+Leonie: Maybe I can even meet new people. 
+Leonie: I can unbox my stuff anytime anyways.
+Leonie: When do I want to get up? 
 <<set $location to "phoneinthedark">>
-10 sounds good...
+Leonie: 10 sounds good...
 <<jump intro3>>
 ===
 
 title: intro3
-position: 10,411
 ---
 <<set $location to "black">>
 You fall asleep almost instantly in your warm bed. 
@@ -67,19 +62,48 @@ You fall asleep almost instantly in your warm bed.
 ===
 
 title: MC3
-position: 38,625
 ---
-zzZZZzzz
+Leonie: zzZZZzzz
 <<jump intro4>>
 ===
 
 title: intro4
-position: 44,804
 ---
+04.03. 2023 - Home
+Weather - Cloudy
 Your phone rings in the typical Android way. A soft jingle, that lets you oversleep 
 from to time because it seriously isn't stressful or loud enough to wake you up. 
 << set $location to "flat">>
-This time it worked like a charm. You open your eyes
+This time it worked like a charm. You open your eyes.
 <<set $character to "main">>
-After the first night 
+A little bit disoriented you stare into the room. 
+Your gaze lingers on the unopened boxes. 
+<<jump MC4>>
+===
+
+title: MC4
+---
+Leonie: (yawn) 
+Leonie: Whoah! 
+Leonie: Feels unreal to be here.
+Leonie:...
+Leonie: No slacking off gurl ^_^! Time to get ready.
+<<jump intro5>>
+===
+
+title: intro5
+---
+//Ausblenden des Characters
+You jump unter the shower, shove some of the sweets from the gift basket, your parents gave you for your first 
+own flat, into your mouth and get dressed in your feel good clothes. 
+Your favorite scarf, your mom gave you 5 years ago, lets you feel nostalgic, as you wrap it around your neck. 
+You open your phone to check out "The best insider tipps for new Hamburgers"
+Which place of Hamburg do you wanna explore first?
+-> Ohlsdorf cemetery 
+    <<jump Granny_Intro>>
+-> Chug Club in St. Pauli
+-> Feldstraße in St. Pauli
+    <<jump DJ_Intro>>
+-> Cafe in Ottensen
+
 ===
