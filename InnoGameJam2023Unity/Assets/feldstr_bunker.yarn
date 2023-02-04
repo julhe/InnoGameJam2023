@@ -25,13 +25,20 @@ DJ: You don't belong to the crew?
 title: DJ_ShowBiz_Lecture
 position: 275,52
 ---
-DJ: Ah, to bad. 
+DJ: Ah, to bad! 
 DJ: I think you missing out.
 DJ: It's so cool working in showbiz.
 
 -> "What is your part here?""
     DJ: I'm the act for tonight here.
-    DJ: My name is DJ Nose.
+    DJ: My name is DJ Moin.
+    DJ: Remember "Stars Of Tommorow" from 2004?
+    Player: "No."
+    DJ: Guess you're too young for that, haha.
+    He hums a melody.
+    It actually does sound familiar to you.
+
+
 -> "Really?"
     DJ: Yeah, do I look like boring to you?
 -> "I heard it's stressfully.""
@@ -48,9 +55,11 @@ DJ: I think highly of this place, but this is disapointing.
 DJ: Man I played all these fesitvals known to man.
 
 -> Let him continue.
--> Like what?
+-> "Like what?"
     DJ: Fusion 2022, man!
     DJ: You just gotta be there, man!
     DJ: The VIBES!
+-> "Uh sure..."
 
 ===
+

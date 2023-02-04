@@ -9,10 +9,36 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 053561912b1654d80a424bb0696a74ae, type: 3}
   sourceScripts:
+  - {fileID: 6391573757903218779, guid: 0a39f480c5e65234998569127198d729, type: 3}
   - {fileID: 6391573757903218779, guid: e007c28ed24bf1f42aa1ebc1b31ad816, type: 3}
+  - {fileID: 6391573757903218779, guid: a416acfa3b3a4fc44b458435402f4aac, type: 3}
   - {fileID: 6391573757903218779, guid: 2fe4c9c922d0fff469520a2d0672fb85, type: 3}
   compileErrors: []
-  serializedDeclarations: []
+  serializedDeclarations:
+  - name: $location
+    typeName: String
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 2fe4c9c922d0fff469520a2d0672fb85, type: 3}
+  - name: $character
+    typeName: String
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 2fe4c9c922d0fff469520a2d0672fb85, type: 3}
+  - name: $emotion
+    typeName: String
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 2fe4c9c922d0fff469520a2d0672fb85, type: 3}
   defaultLanguage: en-US
   languagesToSourceAssets: []
   useAddressableAssets: 0
