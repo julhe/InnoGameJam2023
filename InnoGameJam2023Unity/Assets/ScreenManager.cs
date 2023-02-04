@@ -6,19 +6,27 @@ using UnityEngine.UI;
 using Yarn.Unity;
 
 public class ScreenManager : MonoBehaviour {
-    public List<Screen> screens;
+    static ScreenManager instance;
 
-    
-    public Image Image;
+    [SerializeField] List<Screen> screens;
+    [SerializeField] Image Image;
 
-
-    void Update() {
-        
+    void Awake() {
+        instance = this;
     }
 
-    public void SetScreen(string name) {
+
+    [YarnCommand("SetBackground")]
+    public static void SetScreen(string name) {
+        instance.SetScreenInternal(name);
+    }
+
+    void SetScreenInternal(string screenName) {
         foreach (Screen screen in screens) {
-            if (!screen.Name.Equals(name, StringComparison.InvariantCultureIgnoreCase)) continue;
+            if (screen.Name != screenName) {
+                continue;
+            }
+            
             Image.sprite = screen.Image;
             break;
         }

@@ -2,8 +2,11 @@
 title: Granny_Intro
 position: -198,297
 ---
+
+
 <b> BOLD</b>
 Ohlsdorf, graveyard.
+<<SetBackground black>>
 You wanted to check this place out. 
 If you look at Google Maps, it is the most striking place, so why not pay it a visit?
 
@@ -39,6 +42,7 @@ position: 46,297
     <<jump Granny_PostIntro>>
 -> "It means that you are not part of that group I guess?" (Continue)
     Granny: But this is my family!
+
     <<jump Granny_Discussion>>
 
 ===
