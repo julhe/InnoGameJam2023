@@ -45,7 +45,7 @@ She pulls out a hankerchief and sneezes into it.
 ===
 
 title: Granny_Discussion
-position: 284,297
+position: 298,297
 ---
 -> "Maybe you left the group on accident?"
     Granny: Did I?
@@ -64,15 +64,15 @@ title: Granny_Son
 position: 530,299
 ---
     
-Player: "Who made this group?"
+Leonie: "Who made this group?"
 Granny: My son.
 Granny: If I wrote that...
 The topic makes her visibly uncomftable.
-Player: I mean maybe, that came off as offensive...
-Player: Like me...
+Leonie: I mean maybe, that came off as offensive...
+Leonie: Like me...
 She seems slightly more uncomftable.
 
-Player: ALTROUGHT it's odd to throw someone out for this.
+Leonie: ALTROUGHT it's odd to throw someone out for this.
 Granny: You mean...
 
 -> "Maybe you should call him?" (Continue)
@@ -91,7 +91,7 @@ Shes writing a message in a slighty tiring pace.
 // TODO: Work-In-Progress
 Granny: I still wanna take a picture of the grave.
 Granny: Can you show me how.
-Player: Yes.
+Leonie: Yes.
 
 You help her take a picture of the grave.
 
@@ -106,7 +106,7 @@ Granny: I mean, hes propably at work.
 She taps on her phone a few times and starts holdig it against her ear.
 Nothing happens, after a short while she drops her arm.
 Granny: Hes not picking up.
-Player: You could text him?
+Leonie: You could text him?
 Granny: Of course!
 <<jump Granny_TextSon>>
 ===

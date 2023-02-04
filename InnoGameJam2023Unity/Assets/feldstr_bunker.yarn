@@ -6,16 +6,19 @@ A man in his mid thirites comes out of the side entrace.
 He wears a snapback(tm) and has a noticedable bad posture.
 
 DJ: Hey man, you got fire?
--> "Uh,Yeah, here you go."
+-> "Uh, yeah, here you go."
     DJ: Ah thanks.
--> "I don't smoke-" 
-    DJ: Oh wait I got one my self. 
+-> "I don't smoke." 
+    DJ: Oh wait I got one my self. Haha! 
 
 DJ: You also waiting for Matze?
-Player: Who?
+Leonie: Who?
+He looks confused, almost like he never talked to a human like you.
 DJ: You don't belong to the crew?
 
 -> "I don't work here."
+    DJ: Ah, to bad! 
+    DJ: I think everybody is missing out.
     <<jump DJ_ShowBiz_Lecture>>>
 
 -> "Oh Matze, yeah... Haha!" (lie)
@@ -23,27 +26,25 @@ DJ: You don't belong to the crew?
 
 ===
 title: DJ_ShowBiz_Lecture
-position: 275,52
+position: 641,-30
 ---
-DJ: Ah, to bad! 
-DJ: I think you missing out.
+
 DJ: It's so cool working in showbiz.
-
--> "What is your part here?""
-    DJ: I'm the act for tonight here.
-    DJ: My name is DJ Moin.
-    DJ: Remember "Stars Of Tommorow" from 2004?
-    Player: "No."
-    DJ: Guess you're too young for that, haha.
-    He hums a melody.
-    It actually does sound familiar to you.
-    Player: 
-
 
 -> "Really?"
     DJ: Yeah, do I look like boring to you?
+-> "What is your part here?""
+    DJ: I'm the act for tonight here.
+    DJ: My name is DJ Moin.
+    DJ: Remember "Stars Of Tommorow" from 2005?
+    DJ: 4 Weeks on \#12 in the charts.
+    You don't remember, you were just born then.
+    Leonie: "No."
+    DJ: Guess you're too young for that, haha.
+    He tries to hum a melody.
+
 -> "I heard it's stressfully.""
-    DJ: Yeah it is, but man, its so worth it!!
+    DJ: Yeah it is, but man, it's so worth it!!
 
 
 ===
@@ -62,5 +63,6 @@ DJ: Man I played all these fesitvals known to man.
     DJ: The VIBES!
 -> "Uh sure..."
 
+<<jump DJ_ShowBiz_Lecture>>
 ===
 
