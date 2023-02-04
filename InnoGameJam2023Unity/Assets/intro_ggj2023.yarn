@@ -110,6 +110,7 @@ title: intro6
 ---
 //evtl besser formulieren
 <<SetBackground LoadingScreen>>
+New day new Leonie!
 Which place of Hamburg do you wanna explore?
 -> Ohlsdorf cemetery 
     <<jump Granny_Intro>>

@@ -65,17 +65,22 @@ position: 418,-55
     Mert: I'm a photography student and especially interested architecture. 
     Mert: Thats why this one was intruiging.
     Leonie: Oh cool!
-    //<<SetAnimation Mert >>
+    //<<SetAnimation Mert Mert_emo_smile true>>
     He smiles.
     Mert: Thanks!
-    Mert: We have an exhibition runing.
-    Leonie: Sure, I would like to come along.
+    Mert: We have an exhibition runing. Would you like to come?
+    Leonie: Sure, I would love to see it.
     <<jump Cafe_Outro>>
 ===
 
 title: Cafe_Outro
 position: 688,-48
 ---
-He writes down the name of the exibution.
+He writes down the name of the exibution on a small sheet of paper.
+Mert: It was nice talking to you. Maybe we'll see each other there. Have a good day.
+Leonie: Same! Have a good one.
+You finish your cake and drink your Chai Latte, stuff the sheet into your 
+bag and go home to unpack some boxes.
+
 <<jump intro6>>
 ===
