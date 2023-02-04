@@ -1,4 +1,5 @@
 title: chug1
+position: -517,-690
 ---
 You take the U3 to St. Pauli to head to one of the allegedly best bars in town.
 The Chug Club. 
@@ -17,6 +18,7 @@ Maybe you'll be able to take a picture of it to show it to your friends on WhatA
 ===
 
 title: robyn1
+position: -515,-514
 ---
 Stranger: (cough cough)
 Stranger: Don't look so scared, I am not sick. 
@@ -29,6 +31,7 @@ Stranger:...
 ===
 
 title: chugMC1
+position: -519,-340
 ---
 Leonie: Are you really okay?
 Leonie: They have tap water here. 
@@ -36,12 +39,14 @@ Leonie: They have tap water here.
 ===
 
 title: chug2
+position: -519,-160
 ---
 You take the water decanter from the bar, fill some water in a small glas and hand it to 
 the coughing stranger.
 <<jump robyn2>>
 ===
 title: robyn2
+position: -508,16
 ---
 Stranger: (chug, chug, chug... gulp)
 Stranger: Thanks!
@@ -51,6 +56,7 @@ Stranger: That helped.
 ===
 
 title: chug3
+position: -509,190
 ---
 <<set $emotion to "Robynstandard">>
 
@@ -60,6 +66,7 @@ purple foam. They notice you staring at their drink.
 ===
 
 title: robyn3
+position: -509,366
 ---
 Stranger: Is this your first time here? 
 <<set $emotion to "Robynsmile">>
@@ -67,6 +74,7 @@ Stranger: Is this your first time here?
 ===
 
 title: chugMC2
+position: -287,-685
 ---
 Leonie: Yes.
 Leonie: I just moved here yesterday. 
@@ -75,6 +83,7 @@ Leonie: I just moved here yesterday.
 ===
 
 title: robyn4
+position: -135,-514
 ---
 Robyn: Oh! So you don't know anything about Hamburg yet. 
 Robyn: Apart from the usual touristy stuff right?
@@ -82,6 +91,7 @@ Robyn: Apart from the usual touristy stuff right?
 ===
 
 title: chug4
+position: -134,-356
 ---
 <<set $emotion to "Leoniesmile">>
 You nod and take the glass of water the stranger just handed you.
@@ -89,6 +99,7 @@ You nod and take the glass of water the stranger just handed you.
 ===
 
 title: robyn5
+position: -132,-185
 ---
 Stranger: Whoah and this place was one of the first ones you visited after moving here? 
 Stranger: Amazing! Good Choice 
@@ -98,6 +109,7 @@ Stranger: Do you know anything about this place? Did you check out the menu?
 ===
 
 title: chugMC3
+position: -134,-14
 ---
 Leonie: Thanks!
 <<set $emotion to "Leonieexcited">>
@@ -106,10 +118,12 @@ I don't know anything, just checked out a guide for people who are new to town.
 ===
 
 title: chugMC4
+position: -134,152
 ---
 <<set $emotion to "Robynstandard">>
 <<declare $HasOrderedDrink to false>>
--> Leonie: What kind of drink should I try here? <<if $HasOrderedDrink>>
+-> Leonie: What kind of drink should I try here? <<if !$HasOrderedDrink>>
+    <<set $HasOrderedDrink to true>>
     <<jump robynDrink1>>
 //+1
 -> Leonie: This place looks fancy. Is there anything I should know about it? 
@@ -124,15 +138,18 @@ title: chugMC4
 ===
 
 title: robynDrink1
+position: -133,321
 ---
 The stranger/Robyn opens the menu, which is a basically a pretty book with a textile hardcover
 and puts it between both of you. They show you the first page which says 
 <b>"WELCOME TO THE CHUG CLUB"<br>________<br>CHUG FLIGHT</b>
 and point their finger on the design of 3 small drinks. 
 //GO CHUG YOURSELF
+<<jump robynDrink2>>
 ===
 
 title: robynDrink2
+position: -134,496
 ---
 //Robyns Name known?
 Robyn/Stranger: If you're open for surprises you could take the Chug Flight. 
@@ -146,12 +163,14 @@ Robyn/Stranger: I didn't like.
 ===
 
 title: robynDrink3
+position: 94,-644
 ---
 They look at you like an excited puppy after describing the first page of the menu to you. 
 <<jump chugMC5 >>
 ===
 
-title: ChugMC5
+title: chugMC5
+position: 250,-489
 ---
 -> Leonie: Sounds good. I'll take the Chug Flight. 
 <<jump chugDrinkY1>>
@@ -162,6 +181,7 @@ title: ChugMC5
 ===
 
 title: chugDrinkY1
+position: 508,-282
 ---
 //Robyn/Stranger decision 
 Robyn/Stranger calls XY the barkeeper and enthusiastically tells him your order. 
@@ -169,6 +189,7 @@ Robyn/Stranger calls XY the barkeeper and enthusiastically tells him your order.
 ===
 
 title: chugDrinkY2
+position: 840,-289
 ---
 //Robyn/Stranger decision 
 Robyn/Stranger: XY, you know what I also take another chug flight. This time its it 
@@ -182,6 +203,7 @@ Leonie: Haha, its Leonie, thanks for the suggestion. I am so excited for the dri
 ===
 
 title: chugDrinkY3
+position: 1108,-284
 ---
 The barkeeper XY brings you 2 sheets of paper, on which you can see a description of the
 drinks you'll be getting. 
@@ -190,6 +212,7 @@ He places 3 small glasses on the designated areas of the sheets, one of them top
 ===
 
 title: chugDrinkYN4
+position: 1388,-89
 ---
 You take a few pictures with your phone. 
 Leonie: Ok, this is better than taking photos of the Penny-Markt.
@@ -208,6 +231,7 @@ You clink glasses and smile at each other.
 ===
 
 title: chugDrinkN1
+position: 620,-574
 ---
 You browse through the menu and see a looot of fancy drinks. It takes you forever to read all the descriptions.
 Robyn/Stranger: Do you like sour, sweet or bitter drinks? 
@@ -220,6 +244,7 @@ Leonie: Thanks, sounds like a good Idea
 ===
 
 title: chugDrinkN2
+position: 865,-567
 ---
 //Robyn/Stranger decision 
 Robyn/Stranger calls XY the barkeeper and enthusiastically tells him your order. 
@@ -227,6 +252,7 @@ Robyn/Stranger calls XY the barkeeper and enthusiastically tells him your order.
 ===
 
 title: chugDrinkN3
+position: 1113,-571
 ---
 //Robyn/Stranger decision 
 Robyn/Stranger: XY, you know what I take another chug flight. This time its it 
