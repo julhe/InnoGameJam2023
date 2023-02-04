@@ -45,14 +45,14 @@ title: robyn2
 ---
 Stranger: (chug, chug, chug... gulp)
 Stranger: Thanks!
-<<set $emotion to "robynsmile">>
+<<set $emotion to "Robynsmile">>
 Stranger: That helped. 
 <<jump chug3>>
 ===
 
 title: chug3
 ---
-<<set $emotion to "robynstandard">>
+<<set $emotion to "Robynstandard">>
 
 The stranger stops coughing and takes a sip of their small drink, which is topped with 
 purple foam. They notice you staring at their drink.
@@ -62,7 +62,7 @@ purple foam. They notice you staring at their drink.
 title: robyn3
 ---
 Stranger: Is this your first time here? 
-<<set $emotion to "robynsmile">>
+<<set $emotion to "Robynsmile">>
 <<jump chugMC2>>
 ===
 
@@ -83,7 +83,7 @@ Robyn: Apart from the usual touristy stuff right?
 
 title: chug4
 ---
-<<set $emotion to "leoniesmile">>
+<<set $emotion to "Leoniesmile">>
 You nod and take the glass of water the stranger just handed you.
 <<jump robyn5>>
 ===
@@ -92,17 +92,24 @@ title: robyn5
 ---
 Stranger: Whoah and this place was one of the first ones you visited after moving here? 
 Stranger: Amazing! Good Choice 
-<<set $emotion to "excitedrobyn">>
+<<set $emotion to "Robynexcited">>
 Stranger: Do you know anything about this place? Did you check out the menu?
-<<jump MC5>>
+<<jump chugMC3>>
 ===
 
-title: MC5
+title: chugMC3
 ---
 Leonie: Thanks!
 <<set $emotion to "Leonieexcited">>
 I don't know anything, just checked out a guide for people who are new to town. 
--> Leonie: What kind of drink should I try here?
+<<jump chugMC4>>
+===
+
+title: chugMC4
+---
+<<set $emotion to "Robynstandard">>
+<<declare $HasOrderedDrink to false>>
+-> Leonie: What kind of drink should I try here? <<if $HasOrderedDrink>>
     <<jump robynDrink1>>
 //+1
 -> Leonie: This place looks fancy. Is there anything I should know about it? 
@@ -130,6 +137,104 @@ title: robynDrink2
 //Robyns Name known?
 Robyn/Stranger: If you're open for surprises you could take the Chug Flight. 
 Robyn/Stranger: Or I'd say I absolutely <b>recommend</b> you the Chug Flight. 
+<<set $emotion to "Robynexcited">>
 Robyn/Stranger: It's 3 small drinks with 2 drinks available the whole week and 1 drink
-which is changed daily 
+Robyn/Stranger: which is changed daily, the so called "Choice Of The Day".
+Robyn/Stranger: In the many drinks I had, which I really dont want t count I only had one that
+Robyn/Stranger: I didn't like.
+<<jump robynDrink3>>
+===
+
+title: robynDrink3
+---
+They look at you like an excited puppy after describing the first page of the menu to you. 
+<<jump chugMC5 >>
+===
+
+title: ChugMC5
+---
+-> Leonie: Sounds good. I'll take the Chug Flight. 
+<<jump chugDrinkY1>>
+//+2
+-> Leonie: Hmmm, I don't like surprises. I think I'll have another look at the menu
+<<jump chugDrinkN1>>
+//+0
+===
+
+title: chugDrinkY1
+---
+//Robyn/Stranger decision 
+Robyn/Stranger calls XY the barkeeper and enthusiastically tells him your order. 
+<<jump chugDrinkY2>>
+===
+
+title: chugDrinkY2
+---
+//Robyn/Stranger decision 
+Robyn/Stranger: XY, you know what I also take another chug flight. This time its it 
+Robyn/Stranger: f**cking brilliant. 
+Robyn/Stranger: Let's drink together...
+Robyn/Stranger: ...
+Robyn/Stranger: What was your name again?
+<<set $emotion to "Leonieexcited">>
+Leonie: Haha, its Leonie, thanks for the suggestion. I am so excited for the drinks!
+<<jump chugDrinkY3>>
+===
+
+title: chugDrinkY3
+---
+The barkeeper XY brings you 2 sheets of paper, on which you can see a description of the
+drinks you'll be getting. 
+He places 3 small glasses on the designated areas of the sheets, one of them topped with the purple foam you noticed earlier.
+<<jump chugDrinkYN4>>
+===
+
+title: chugDrinkYN4
+---
+You take a few pictures with your phone. 
+Leonie: Ok, this is better than taking photos of the Penny-Markt.
+<<set $emotion to "LeonieLOL">>
+Robyn/Stranger: You wanted to do WHAT? 
+<<set $emotion to "RobynLOL">>
+Leonie: Well I saw a documentary of the Penny supermarket on Youtube with my friends in Stuttgart.
+Leonie: I thought it would be funny to send them pictures of it. 
+Robyn/Stranger: LOOOOL. AHAHAHAHAAHAHAHA. NO WAY!
+You blush but start to laugh too.
+Leonie: Hahahaha okay, I guess it is something people from Hamburg would never do. 
+Robyn/Stranger: No we wouldn't, but anyways - Welcome to Hamburg! 
+Robyn/Stranger: Cheers!
+You clink glasses and smile at each other.
+<<jump chugMC4>>
+===
+
+title: chugDrinkN1
+---
+You browse through the menu and see a looot of fancy drinks. It takes you forever to read all the descriptions.
+Robyn/Stranger: Do you like sour, sweet or bitter drinks? 
+Leonie: I prefer sweet!
+Robyn/Stranger: Okay thenn, I'd say you could try the Golden Nugget.
+<<set $emotion to "Robynsmile">>
+Leonie: Thanks, sounds like a good Idea
+//+1
+<<jump chugDrinkN2>>
+===
+
+title: chugDrinkN2
+---
+//Robyn/Stranger decision 
+Robyn/Stranger calls XY the barkeeper and enthusiastically tells him your order. 
+<<jump chugDrinkN3>>
+===
+
+title: chugDrinkN3
+---
+//Robyn/Stranger decision 
+Robyn/Stranger: XY, you know what I take another chug flight. This time its it 
+Robyn/Stranger: f**cking brilliant. 
+Robyn/Stranger: Let's drink together...
+Robyn/Stranger: ...
+Robyn/Stranger: What was your name again?
+<<set $emotion to "Leonieexcited">>
+Leonie: Haha, its Leonie, thanks for the suggestion. I am so excited for the drinks!
+<<jump chugDrinkYN4>>
 ===
