@@ -1,4 +1,5 @@
 title: cafe1
+position: -297,-57
 ---
 //A nice cafe with a big table where people study/work on their laptops
 //- warm and cozy atmosphere
@@ -15,4 +16,64 @@ While riding the moving van you saw a café in Ottensen and decide to go there t
 Ottensen is a part of Altona, one of the 104 quarters of Hamburg. 
 The café is filled with wooden furniture. You could say that it has a hipster touch to it. 
 It's pretty cozy so, you sit down with your Laptop. 
+There was only one free spot.
+Next to you is young man, he has a camera hanging around his neck.
+The camera especially catches your eye, it is not the usual kind of digital camera.
+THAT ONE is vintage.
+<<jump Cafe_Opener>>
+
+===
+
+title: Cafe_Opener
+position: -59,-58
+---
+
+-> Don't disturb the man.
+    You decide to open your Laptop.
+    He opens a book about architectual photographie in post-war era.
+    <<jump Cafe_Opener>>
+
+-> Ask him about the camera. (Continue)
+    Leonie: Hey, thats a cool camera! What model is that, I've never seen it before.
+    <<jump Cafe_TheCamera>>
+
+===
+
+title: Cafe_TheCamera
+position: 184,-57
+---
+He stares at you. 
+Stranger: Yeah... Hi, uhh...
+He seems to struggle to find words. 
+Stranger: Yeah... that is a Opus X200... from the 1950.
+He regains his focus.
+Stranger: I'm Mert by the way.
+Leonie: Oh, yeah... hi, I'm Leonie.
+
+<<jump Cafe_Conversation>>
+===
+
+title: Cafe_Conversation
+position: 418,-55
+---
+-> How did you got that camera?
+    Mert: It was a gift, from my unkle.
+    // his uncle was a refuge from the iran revolution?
+    <<jump Cafe_Conversation>>
+-> What is that book?
+    Mert: I just got this from the university library. 
+    Mert: I'm a photography student.
+    Leonie: Oh cool!
+    He smiles.
+    Mert: Thanks!
+    Mert: We have an exhibition runing.
+    Leonie: Sure, I would like to come along.
+    <<jump Cafe_Outro>>
+===
+
+title: Cafe_Outro
+position: 688,-48
+---
+He writes down the name of the exibution.
+<<jump intro6>>
 ===

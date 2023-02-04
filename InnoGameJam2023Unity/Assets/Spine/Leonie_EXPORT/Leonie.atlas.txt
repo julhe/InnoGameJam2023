@@ -13,6 +13,12 @@ body
 bounds:168,48,452,753
 rotate:90
 body_b
-bounds:1193,379,117,121
+bounds:1321,229,117,121
+excited
+bounds:1193,356,129,144
+happy
+bounds:1193,225,122,125
 head
 bounds:927,222,260,278
+lol
+bounds:1328,365,117,135
