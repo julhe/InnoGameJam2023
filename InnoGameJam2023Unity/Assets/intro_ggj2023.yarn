@@ -3,7 +3,7 @@ title: intro
 <<declare $location = "">>
 <<declare $character to "">>
 <<declare $emotion to "">>
-<<set $location to "rain">>
+//<<set $location to "rain">> NICE TO HAVE
 03.03. 2023 - Hamburg 
 Weather - Rainy
 <<set $location to "flat">>
