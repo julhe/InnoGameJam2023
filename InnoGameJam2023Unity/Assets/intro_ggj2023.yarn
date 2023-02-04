@@ -19,9 +19,11 @@ The monstera your parents gifted you is in dire need of water.
 title: MC1
 ---
 
+<<SetAnimation Leonie Leonie_emo_lol true>>
 <<set $emotion to "exhausted">>
 Leonie: Man I wish I'd already knew people from here. Carrying all the boxes with only 
 Leonie: mom, dad and Klement really drained my whole energy. At least at home I had my friends to help me. 
+<<SetAnimation Leonie Leonie_emo_lol false>>
 <<set $emotion to "sad">>
 Leonie: I miss them. 
 <<jump intro2>>

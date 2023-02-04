@@ -19,17 +19,17 @@ public class YarnSprite : MonoBehaviour
         }
     }
     [YarnCommand("SetAnimation")]
-    public static void SetAnimation(String refName, String animationName, int trackIndex, bool play) {
+    public static void SetAnimation(String refName, String animationName, bool play) {
         foreach (YarnSprite yarnSprite in FindObjectsOfType<YarnSprite>()) {
             if (yarnSprite.name != refName) continue;
 
             if (!yarnSprite.TryGetComponent(out SkeletonGraphic skeletonGraphic)) continue;
             
             if (play) {
-                skeletonGraphic.AnimationState.AddAnimation(trackIndex, animationName, true, 0.0f);
+                skeletonGraphic.AnimationState.SetAnimation(1, animationName, true);
             }
             else {
-                skeletonGraphic.AnimationState.ClearTrack(trackIndex);
+                skeletonGraphic.AnimationState.SetEmptyAnimation(1, 1.0f);
             }
         }
     }
