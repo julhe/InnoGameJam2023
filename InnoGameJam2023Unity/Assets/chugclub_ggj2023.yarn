@@ -31,7 +31,7 @@ Stranger:...
 title: chugMC1
 ---
 Leonie: Are you really okay?
-Leonie: They have Tap Water here. 
+Leonie: They have tap water here. 
 <<jump chug2>>
 ===
 
@@ -90,13 +90,44 @@ You nod and take the glass of water the stranger just handed you.
 
 title: robyn5
 ---
-Robyn: Whoah and this place was one of the first ones you visited after moving here? 
-Robyn: Amazing! Good Choice <<set §emotion to "excitedrobyn">>
-Robyn: Do you know anything about this place? Did you check out the menu?
+Stranger: Whoah and this place was one of the first ones you visited after moving here? 
+Stranger: Amazing! Good Choice 
+<<set §emotion to "excitedrobyn">>
+Stranger: Do you know anything about this place? Did you check out the menu?
 <<jump MC5>>
 ===
 
 title: MC5
 ---
+Leonie: Thanks!
+<<set $emotion to "Leonieexcited">>
+I don't know anything, just checked out a guide for people who are new to town. 
+    ->Leonie: What kind of drink should I try here?
+    <<jump robynDrink1>>
+//+1
+    ->Leonie: This place looks fancy. Is there anything I should know about it? 
+    <<jump robynChugPlace>>
+//+1
+    ->Leonie: Is the tap water for free?
+    <<jump robynTapwater>>
+//+0
+    ->Leonie: How about you? Are you from here? What's your name?
+    <<jump robynName>>
+//+2
+===
 
+title: robynDrink1
+---
+The stranger/Robyn opens the menu, which is a basically a pretty book with a textile hardcover
+and puts it between both of you. They show you the first page which says "WELCOME TO THE CHUG CLUB"________CHUG FLIGHT
+and point their finger on the design of 3 small drinks. 
+//GO CHUG YOURSELF
+===
 
+title: robynDrink2
+---
+//Robyns Name known?
+Robyn/Stranger: If you're open for surprises you could take the Chug Flight. 
+Robyn/Stranger: Or I'd say I absolutely <b>recommend</b> you the Chug Flight. 
+Robyn/Stranger: It's 
+===
