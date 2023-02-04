@@ -26,29 +26,32 @@ DJ: You don't belong to the crew?
 
 ===
 title: DJ_ShowBiz_Lecture
-position: 641,-30
+position: 551,-45
 ---
 
-DJ: It's so cool working in showbiz.
+DJ: It's so cool working in showbiz!
 
--> "Really?"
-    DJ: Yeah, do I look like boring to you?
--> "What is your part here?""
-    DJ: I'm the act for tonight here.
+-> Really?
+    DJ: Yeah, do I look like boring to you??
+    <<jump DJ_ShowBiz_Lecture>>
+
+-> What is your part here? (Continue)
+    DJ: I'm the act for tonight here. 
     DJ: My name is DJ Moin.
     DJ: Remember "We Are The Stars Of Tommorow" from 2005?
     DJ: 4 Weeks on \#12 in the charts.
     You don't remember, you were just born then.
-    Leonie: "I don't."
+    Leonie: I don't.
     DJ: Guess you're too young for that, haha.
     He tries to hum a melody.
+    <<jump DJ_Invite>>
 
--> "I heard it's stressfully.""
+-> I heard it's stressfully.
     DJ: Yeah it is, but man, it's so worth it!!
     DJ: All the places...
     He smiles.
-    DJ: All the stuff, man
-
+    DJ: All the stuff... Man!
+    <<jump DJ_ShowBiz_Lecture>>
 
 ===
 
@@ -70,3 +73,21 @@ DJ: The VIBES!
 <<jump DJ_ShowBiz_Lecture>>
 ===
 
+title: DJ_Invite
+position: 833,-41
+---
+DJ: You should come to my show tonight!
+DJ: I can put you on the guest list.
+DJ: Whats your name?
+
+-> Leonie.
+    DJ: Ok Leonie, see you to night!
+    He gives you a wink.
+
+-> Laura. (Lie)
+    DJ: Ok Laura, see you to night!
+    He gives you a wink.
+
+<<ShowCharacter DJ false>>
+<<jump intro6>>
+===
