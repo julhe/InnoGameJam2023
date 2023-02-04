@@ -357,7 +357,7 @@ Robyn: Sounds cool. There are several fleamarkts here. Even one in the evening a
 Robyn: Since tomorrow is sunday, do you wanna go to see some Art? 
 Robyn: In a building that is called Jupiter next to Hauptbahnhof, there are always some nice exhibitions. 
 Robyn: It used to be a Karstadt Sport until a lot of Artists moved in. Do you wanna exchange numbers to meet up tomorrow? 
-Leonie:  
+Leonie: 
 -> That does sound nice! Lets do that.
 //+2
 <<jump LeonieOpen2>>

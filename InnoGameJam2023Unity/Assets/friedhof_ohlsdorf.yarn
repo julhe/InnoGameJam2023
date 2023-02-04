@@ -7,7 +7,7 @@ Ohlsdorf, graveyard.
 <<SetBackground black>>
 You felt like your monstera alone is not green enough, you crave for some more nature around you. 
 After checking Google Maps, it is the most striking place, so why not pay it a visit?
-After you arived, you strol around for a bit.
+After you arived, you stroll around for a bit.
 <<SetBackground Ohlsdorf>>
 You come along a row of graves.
 You pass by an old lady in front of a grave with fresh flowers.
@@ -22,7 +22,7 @@ Granny: Young lady, could you help me this?
     Shes propably visiting the grave of her relatives.
     Have you no heart?
 
-Granny: I wan't to take a picture and send it to my family. But it says...
+Granny: I want to take a picture and send it to my family. But it says...
 She's adjusting her glass.
 Granny: ...you are not part of this group.
 <<jump Granny_Phone>>
@@ -33,11 +33,13 @@ title: Granny_Phone
 position: 46,297
 ---
 She pulls out a hankerchief and sneezes into it.
+Leonie:
 -> "Hm, Can you show me your phone?" (Continue)
-    She steps beside you, holder her phone closer to you.
+    She steps beside you, holding her phone closer to you.
     On her phone screen, you make out the familiar layout of an instant messanger.
-    On the top it reads: <i>Not part of the group "+00491...".</i>
-    You can't read more as the enourmus font size make the word "screen real-estate" sound like a joke.
+    On top it reads: <i>Not part of the group "+00491...".</i>
+    //umformulieren
+    You can't read more as the enourmous font size makes the word "screen real-estate" sound like a joke.
     <<jump Granny_Discussion>>
 -> "It means that you are not part of that group, I guess?" 
     Granny: But why? This is my family!
@@ -53,10 +55,10 @@ position: 298,297
     She's sounds almost whiney.
     <<jump Granny_Discussion>>
 -> "What was the last thing you wrote?" (Continue)
-    Granny: Well I wanted to tell them that I'm a little sick and..
+    Granny: Well I wanted to tell them that I'm a little sick and...
     She scrolls up the text messages. Her last message appears.
     It reads - <i>Waltraut: *PukeEmoji* *PukeEmoji* *PukeEmoji* </i>
-    Granny: What? No, no, no thats surley NOT wanted to write.
+    Granny: What? No, no, no thats surley NOT what I wanted to write.
     <<jump Granny_Son>>
 ===
 
@@ -68,33 +70,40 @@ Leonie: "Who made this group?"
 Granny: My son.
 Granny: If I wrote that...
 The topic makes her visibly uncomftable.
-Leonie: I mean maybe, that came off as offensive...
-Leonie: Like me...
+//emotion: sad
+Leonie: I mean I could see that one could... maybe... read it as offensive.
 She seems slightly more uncomftable.
+//emotion distressed
 
-Leonie: ALTROUGHT it's odd to throw someone out for this.
+Leonie: ALTROUGH it's odd to throw someone out of a family group for this.
 Granny: You mean...
 
 -> "Maybe you should call him?" (Continue)
-    <<jump Granny_TextSon>>
+    <<jump Granny_CallSon>>
 -> "Maybe you should text him?" (Continue)
     Granny: I can try.
-    <<jump Granny_CallSon>>
+    <<jump Granny_TextSon>>
 ===
 
 title: Granny_TextSon
 position: 971,309
 ---
-Shes writing a message in a slighty tiring pace.
+She starts to write a message in a slighty tiring pace.
+She stops.
 // TODO: could to more expose here.
 
 // TODO: Work-In-Progress
-Granny: I still wanna take a picture of the grave.
+Granny: But... before that, I still wanna take a picture of the grave.
 Granny: Can you show me how.
+You would roll your eyes, if you were sure she woldn't get wind of it. 
+So you hold it back at any cost, beacuse you don't want to upset her any more than she already is.
 Leonie: Yes.
+//emotion: smile
 
-You help her take a picture of the grave.
-
+You help her to open the camera app so that she can take a picture of the grave.
+Granny: Thank you so much. I know how to do this in WhatsApp
+Granny: I didn't know my phone can do this.
+//frontkamerajoke?
 <<jump Granny_Picture>>
 ===
 
@@ -104,22 +113,26 @@ position: 974,86
 Granny: Now?
 Granny: I mean, hes propably at work.
 She taps on her phone a few times and starts holdig it against her ear.
-Nothing happens, after a short while she drops her arm.
+Nothing happens...
+After a short while she drops her arm.
 Granny: Hes not picking up.
 Leonie: You could text him?
 Granny: Of course!
+//eotion neutral
 <<jump Granny_TextSon>>
 ===
 
 title: Granny_Picture
 position: 1256,324
 ---
-
--> "Such pretty flowers"
-    Granny: Thank you! :)
+Leonie:
+-> "Such pretty flowers. Did you bring them here?"
+    Granny: Thank you!
+    <<SetAnimation Granny DreamySmile>> 
+    I did. I loved my huband so much!
     <<jump Granny_Picture>>
 
--> "I've got to go!"
-    Granny: Thank you so much for your help!
-    END
+-> "I've got to go. Have a good day. I hope your son calls you back!"
+    Granny: Thank you so much for your help! Have a good time.
+    <<jump intro6>>
 ===

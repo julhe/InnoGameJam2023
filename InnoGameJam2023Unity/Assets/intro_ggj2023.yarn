@@ -118,4 +118,6 @@ Which place of Hamburg do you wanna explore?
 -> Cafe in Ottensen
     <<jump cafe1>>
 
+    //wenn 3 personen durch, dann schaltet sich der Chug Club frei
+
 ===
