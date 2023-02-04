@@ -291,6 +291,61 @@ title: robynName1
 ---
 Robyn: I am Robyn, pronouns are they/them please <3
 <<set $emotion to "Robynsmile">>
-Robyn: I was born and raised in Hamburg 
-//How about you? Are you from here? What's your name?
+Robyn: I was born and raised in Hamburg and know the beeest spots here. 
+Robyn: I could show you some of my favorite locations, so you won't need your "Insider App" anymore. 
+Robyn: Why did you move here? Is it your first own flat or shared apartment?
+Leonie: For my studies.
+<<set $emotion to "Leoniesmile">>
+Leonie: And yes this is the first time I live apart form my parents. I already miss them, but am sooo excited for the future in my own flat.
+Robyn: Do you already know people here?
+Leonie: 
+-> Not yet, I'm glad I met you. Maybe you can really show me your favorite places in Hamburg
+//+2
+<<jump robynShowMe1>>
+-> I don't
+//+0
+<<jump robynNope1>>
+-> Not yet, could you write some of your recommendations down?
+//+0
+<<jump robynWrite1>>
+===
+
+title: robynShowMe1
+---
+Robyn: Yeah! Sounds good! What do you like to see? What did you like in Stuttgart?
+Leonie: They definitely didn't have these Chugs. These are really really good. Thanks for recommenden them to me.
+<<set $emotion to "Leonieexcited">>
+Leonie: 
+-> I liked museums, fleamarkets and to visit friends in their flats. But I am pretty open to see lots of new things. 
+//+2
+<<jump LeonieOpen1>>
+-> I don't know. I didn't do much in Stuttgart apart from chilling at home.
+//+0
+<<jump LeonieClosed1>>
+-> Can we maybe check on our phones whats available in Hamburg. I am really open to new things.
+<<jump LeonieLukewarm1>>
+===
+
+title: LeonieOpen1
+---
+Robyn: Sounds cool. There are several fleamarkts here. Even one in the evening at Rindermarkthalle on Wednesday. 
+Robyn: Since tomorrow is sunday, do you wanna go to see some Art? 
+Robyn: In a building that is called Jupiter next to Hauptbahnhof, there are always some nice exhibitions. 
+Robyn: It used to be a Karstadt Sport until a lot of Artists moved in. Do you wanna exchange numbers to meet up tomorrow? 
+Leonie:  
+-> That does sound nice! Lets do that.
+//+2
+<<jump LeonieOpen2>>
+-> Yeah, but maybe not tomorrow. Let's check for another date via WhatsApp.
+//+1
+<<jump LeonieWhatsapp1>>
+-> I can give you my Insta and write you when I finished unpacking.
+//+0
+<<jump LeonieInsta1>>
+===
+
+title: LeonieOpen2
+---
+Robyn: Yayy, lets have another toast. 
+They drank until it was pretty late and left the Chug Club happy to have made another friend
 ===
