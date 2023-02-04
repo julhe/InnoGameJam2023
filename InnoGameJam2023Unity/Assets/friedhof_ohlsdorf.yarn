@@ -16,7 +16,7 @@ Shes taping on her phone and seems upset.
 Just as you pass her by...
 
 Granny: Young lady, could you help me this?
-
+<<ShowCharacter Leonie true>>
 -> "Okay, but just for a moment."
 -> Ignore her
     You want to but can't. Who woudn't help an old lady?
@@ -135,5 +135,6 @@ Leonie:
 
 -> "I've got to go. Have a good day. I hope your son calls you back!"
     Granny: Thank you so much for your help! Have a good time.
+    <<ShowCharacter Granny false>>
     <<jump intro6>>
 ===
