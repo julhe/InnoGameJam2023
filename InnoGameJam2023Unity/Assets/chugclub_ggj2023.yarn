@@ -64,7 +64,7 @@ purple foam. They notice you staring at their drink.
 ===
 
 title: robyn3
-position: -509,366
+position: -749,257
 ---
 Stranger: Is this your first time here? 
 <<set $emotion to "Robynsmile">>
@@ -83,8 +83,8 @@ Leonie: I just moved here yesterday.
 title: robyn4
 position: -135,-514
 ---
-Robyn: Oh! So you don't know anything about Hamburg yet. 
-Robyn: Apart from the usual touristy stuff right?
+Stranger: Oh! So you don't know anything about Hamburg yet. 
+Stranger: Apart from the usual touristy stuff right?
 <<jump chug4>>
 ===
 
@@ -120,6 +120,7 @@ position: -134,152
 ---
 <<set $emotion to "Robynstandard">>
 <<declare $HasOrderedDrink to false>>
+<<declare $StrangerName to "Stranger">>
 -> Leonie: What kind of drink should I try here? <<if !$HasOrderedDrink>>
     <<set $HasOrderedDrink to true>>
     <<jump robynDrink1>>
@@ -130,7 +131,7 @@ position: -134,152
 -> Leonie: Is the tap water for free?
     <<jump robynTapwater1>>
 //+0
--> Leonie: How about you? Are you from here? What's your name?
+-> Leonie: How about you? Are you from here? What's your name? <<if $StrangerName == "Stranger">>
     <<jump robynName1>>
 //+2
 ===
@@ -287,7 +288,7 @@ position: 2032,55
 ---
 Robyn/Stranger: Eh... Well yeah. I mean it's on the table 
 They look at you questioningly
-Robyn/Stranger: Is there anything else you wanna know?
+<<$StrangerName>>: Is there anything else you wanna know?
 <<jump chugMC4>>
 ===
 
@@ -295,6 +296,7 @@ title: robynName1
 position: 718,485
 ---
 Robyn: I am Robyn, pronouns are they/them please <3
+<<set $StrangerName to "Robyn">>
 <<set $emotion to "Robynsmile">>
 Robyn: I was born and raised in Hamburg and know the beeest spots here. 
 Robyn: I could show you some of my favorite locations, so you won't need your "Insider App" anymore. 
