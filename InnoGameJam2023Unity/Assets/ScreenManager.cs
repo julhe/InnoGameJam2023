@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 using Yarn.Unity;
@@ -26,8 +27,11 @@ public class ScreenManager : MonoBehaviour {
             if (screen.Name != screenName) {
                 continue;
             }
-            
-            Image.sprite = screen.Image;
+
+            DOTween.Sequence()
+                .Append(Image.DOColor(Color.black, 2.0f))
+                .AppendCallback(() => Image.sprite = screen.Image)
+                .Append(Image.DOColor(Color.white, 2.0f));
             break;
         }
     }
