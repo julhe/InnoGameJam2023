@@ -1,17 +1,16 @@
 title: intro
 ---
-<<declare $location = "">>
+
 <<declare $character to "">>
 <<declare $emotion to "">>
 //<<set $location to "rain">> NICE TO HAVE
 03.03. 2023 - Hamburg 
 Weather - Rainy
-<<set $location to "flat">>
+<<SetBackground home>>
 <<set $character to "main">>
 You are exhausted from your move. 800 km in one day and carrying all of your belongings
 into and out of the truck was harder than you thought. 
 The furniture is half built and there are boxes everywhere. 
-<< set $location to "monstera">>
 The monstera your parents gifted you is in dire need of water.
 <<jump MC1>>
 ===
@@ -37,7 +36,7 @@ your many new aquaintances.
 But enough for today!
 Slowly you climb into your bed - the only piece of furniture that is already in place 
 You turn off the light, 
-<<set $location to "black">> 
+<<SetBackground black>>
 pull the blanket over your chin, and 
 close your eyes.
 <<jump MC2>>
@@ -49,14 +48,14 @@ Leonie: I need to check out the city tomorrow and send everyone nice pictures.
 Leonie: Maybe I can even meet new people. 
 Leonie: I can unbox my stuff anytime anyways.
 Leonie: When do I want to get up? 
-<<set $location to "phoneinthedark">>
+<<SetBackground home>>
 Leonie: 10 sounds good...
 <<jump intro3>>
 ===
 
 title: intro3
 ---
-<<set $location to "black">>
+<<SetBackground black>>
 You fall asleep almost instantly in your warm bed. 
 <<jump MC3>>
 ===
@@ -73,7 +72,7 @@ title: intro4
 Weather - Cloudy
 Your phone rings in the typical Android way. A soft jingle, that lets you oversleep 
 from to time because it seriously isn't stressful or loud enough to wake you up. 
-<< set $location to "flat">>
+<<SetBackground home>>
 This time it worked like a charm. You open your eyes.
 <<set $character to "main">>
 A little bit disoriented you stare into the room. 
