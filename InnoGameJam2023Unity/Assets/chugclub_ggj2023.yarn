@@ -39,7 +39,7 @@ title: chug2
 ---
 You take the water decanter from the bar, fill some water in a small glas and hand it to 
 the coughing stranger.
-<<jum robyn2>>
+<<jump robyn2>>
 ===
 title: robyn2
 ---
@@ -92,7 +92,7 @@ title: robyn5
 ---
 Stranger: Whoah and this place was one of the first ones you visited after moving here? 
 Stranger: Amazing! Good Choice 
-<<set §emotion to "excitedrobyn">>
+<<set $emotion to "excitedrobyn">>
 Stranger: Do you know anything about this place? Did you check out the menu?
 <<jump MC5>>
 ===
@@ -102,16 +102,16 @@ title: MC5
 Leonie: Thanks!
 <<set $emotion to "Leonieexcited">>
 I don't know anything, just checked out a guide for people who are new to town. 
-    ->Leonie: What kind of drink should I try here?
+-> Leonie: What kind of drink should I try here?
     <<jump robynDrink1>>
 //+1
-    ->Leonie: This place looks fancy. Is there anything I should know about it? 
+-> Leonie: This place looks fancy. Is there anything I should know about it? 
     <<jump robynChugPlace>>
 //+1
-    ->Leonie: Is the tap water for free?
+-> Leonie: Is the tap water for free?
     <<jump robynTapwater>>
 //+0
-    ->Leonie: How about you? Are you from here? What's your name?
+-> Leonie: How about you? Are you from here? What's your name?
     <<jump robynName>>
 //+2
 ===
