@@ -21,7 +21,7 @@ public class YarnSprite : MonoBehaviour
         
     }
 
-    void OnEnable() {
+    void Start() {
         GetComponent<MaskableGraphic>().color = Color.white.WithAlpha(0.0f);
     }
 
