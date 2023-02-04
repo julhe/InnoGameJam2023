@@ -182,7 +182,7 @@ title: chugDrinkY1
 position: 508,-282
 ---
 //Robyn/Stranger decision 
-Robyn/Stranger calls XY the barkeeper and enthusiastically tells him your order. 
+Robyn/Stranger calls Raphael the barkeeper and enthusiastically tells him your order. 
 <<jump chugDrinkY2>>
 ===
 
@@ -190,7 +190,7 @@ title: chugDrinkY2
 position: 840,-289
 ---
 //Robyn/Stranger decision 
-Robyn/Stranger: XY, you know what I also take another chug flight. This time its it 
+Robyn/Stranger: Raphi, you know what I also take another chug flight. This time its it 
 Robyn/Stranger: f**cking brilliant. 
 Robyn/Stranger: Let's drink together...
 Robyn/Stranger: ...
@@ -203,7 +203,7 @@ Leonie: Haha, its Leonie, thanks for the suggestion. I am so excited for the dri
 title: chugDrinkY3
 position: 1108,-284
 ---
-The barkeeper XY brings you 2 sheets of paper, on which you can see a description of the
+The barkeeper brings you 2 sheets of paper, on which you can see a description of the
 drinks you'll be getting. 
 He places 3 small glasses on the designated areas of the sheets, one of them topped with the purple foam you noticed earlier.
 <<jump chugDrinkYN4>>
@@ -245,7 +245,7 @@ title: chugDrinkN2
 position: 865,-567
 ---
 //Robyn/Stranger decision 
-Robyn/Stranger calls XY the barkeeper and enthusiastically tells him your order. 
+Robyn/Stranger calls the barkeeper and enthusiastically tells him your order. 
 <<jump chugDrinkN3>>
 ===
 
@@ -253,7 +253,7 @@ title: chugDrinkN3
 position: 1113,-571
 ---
 //Robyn/Stranger decision 
-Robyn/Stranger: XY, you know what I take another chug flight. This time its it 
+Robyn/Stranger: Raphi, you know what I take another chug flight. This time its it 
 Robyn/Stranger: f**cking brilliant. 
 Robyn/Stranger: Let's drink together...
 Robyn/Stranger: ...
