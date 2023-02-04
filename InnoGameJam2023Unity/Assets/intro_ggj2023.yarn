@@ -3,6 +3,7 @@ title: intro
 
 <<declare $emotion to "">>
 //<<set $location to "rain">> NICE TO HAVE
+<<SetBackground LoadingScreen>>
 03.03. 2023 - Hamburg 
 Weather - Rainy
 <<SetBackground home>>
@@ -106,6 +107,7 @@ You open your phone to check out "The best insider tipps for new Hamburgers"
 title: intro6
 ---
 //evtl besser formulieren
+<<SetBackground LoadingScreen>>
 Which place of Hamburg do you wanna explore?
 -> Ohlsdorf cemetery 
     <<jump Granny_Intro>>
