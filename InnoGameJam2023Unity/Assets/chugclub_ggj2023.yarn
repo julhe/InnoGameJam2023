@@ -289,6 +289,8 @@ Robyn/Stranger: Is there anything else you wanna know?
 
 title: robynName1
 ---
-Robyn: 
+Robyn: I am Robyn, pronouns are they/them please <3
+<<set $emotion to "Robynsmile">>
+Robyn: I was born and raised in Hamburg 
 //How about you? Are you from here? What's your name?
 ===
