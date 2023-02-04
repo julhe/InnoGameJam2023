@@ -1,24 +1,28 @@
 title: DJ_Intro
 position: -23,-50
 ---
-You standing at the Übel and Gefährlich waitng for someone to arrive.
-A man in his mid thirites comes out of the side entrace.
+You heard from your friends that they had a pretty nice time at the Übel und Gefährlich in the Bunker at Feldstraße.
+Since you are pretty curious, you decide to check it out.
+While checking your phone for the line up of tonight,
+a man in his mid thirites comes out of the side entrace.
 He wears a snapback(tm) and has a noticedable bad posture.
 
-DJ: Hey man, you got fire?
+DJ: Hey Diggi, you got fire?
+Leonie: 
 -> "Uh, yeah, here you go."
-    DJ: Ah thanks.
+    DJ: Ah thanks Diggi. Muuuch apreciated. 
 -> "I don't smoke." 
-    DJ: Oh wait I got one my self. Haha! 
-
-DJ: You also waiting for Matze?
+    DJ: Oh wait I got one my self. Haha! No worries, no worries. DJ Moin has it under control!
+He tries to get the lighter to work and fails miserably for 20 seconds that feel endless.
+DJ Moin: You also waiting for Matze?
 Leonie: Who?
 He looks confused, almost like he never talked to a human like you.
-DJ: You don't belong to the crew?
+DJ Moin: Diggi, you don't belong to the crew?
 
--> "I don't work here."
-    DJ: Ah, to bad! 
-    DJ: I think everybody is missing out.
+Leonie:
+-> "Uh yeah, I don't work here."
+    DJ Moin: Ah, to baaad! 
+    DJ Moin: I think everybody is missing out. Nowadays everyone has something better to do. Sad for THEM. 
     <<jump DJ_ShowBiz_Lecture>>>
 
 -> "Oh Matze, yeah... Haha!" (lie)
@@ -30,14 +34,15 @@ position: 551,-45
 ---
 
 DJ: It's so cool working in showbiz!
-
+Leonie:
 -> Really?
-    DJ: Yeah, do I look like boring to you??
+    DJ: Yeah, do I look bored to you?? I AM DJ Mojn!
     <<jump DJ_ShowBiz_Lecture>>
 
 -> What is your part here? (Continue)
     DJ: I'm the act for tonight here. 
     DJ: My name is DJ Moin.
+    Leonie: Yeah, uhm... you just said that.
     DJ: Remember "We Are The Stars Of Tommorow" from 2005?
     DJ: 4 Weeks on \#12 in the charts.
     You don't remember, you were just born then.
