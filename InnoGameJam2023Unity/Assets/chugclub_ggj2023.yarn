@@ -144,8 +144,8 @@ position: -134,152
 title: robynDrink1
 position: -133,321
 ---
-{$StrangerName} opens the menu, which is a basically a pretty book with a textile hardcover
-and puts it between both of you. They show you the first page which says 
+{$StrangerName} opens the menu, a pretty book with a textile hardcover.
+They put it between both of you, show you the first page which says 
 <b>"WELCOME TO THE CHUG CLUB"<br>________<br>CHUG FLIGHT</b>
 and point their finger on the design of 3 small drinks. 
 //GO CHUG YOURSELF
@@ -161,15 +161,7 @@ position: -134,496
 {$StrangerName}: Or I'd say I absolutely <b>recommend</b> you the Chug Flight. 
 {$StrangerName}: It's 3 small drinks with 2 drinks available the whole week and 1 drink
 {$StrangerName}: which is changed daily, the so called "Choice Of The Day".
-{$StrangerName}: In the many drinks I had, which I really dont want t count I only had one that
-{$StrangerName}: I didn't like.
-<<jump robynDrink3>>
-===
-
-title: robynDrink3
-position: 94,-644
----
-They look at you like an excited puppy after describing the first page of the menu to you. 
+{$StrangerName}: Out the many drinks I had, there was one that I didn't like.
 <<jump chugMC5 >>
 ===
 
@@ -197,8 +189,8 @@ title: chugDrinkY2
 position: 840,-289
 ---
 //{$StrangerName} decision 
-{$StrangerName}: Raphi, you know what I also take another chug flight. This time its it 
-{$StrangerName}: f**cking brilliant. 
+{$StrangerName}: Raphi, you know what! I also take another chug flight. 
+{$StrangerName}: This time it isf**cking brilliant. 
 {$StrangerName}: Let's drink together...
 {$StrangerName}: ...
 {$StrangerName}: What was your name again?
@@ -211,8 +203,7 @@ title: chugDrinkY3
 position: 1108,-284
 ---
 The barkeeper brings you 2 sheets of paper, on which you can see a description of the
-drinks you'll be getting. 
-He places 3 small glasses on the designated areas of the sheets, one of them topped with the purple foam you noticed earlier.
+drinks you'll be getting and places 3 small glasses on them, one of them topped with the purple foam you noticed earlier.
 <<jump chugDrinkYN4>>
 ===
 
@@ -260,8 +251,8 @@ title: chugDrinkN3
 position: 1113,-571
 ---
 //{$StrangerName} decision 
-{$StrangerName}: Raphi, you know what I take another chug flight. This time its it 
-{$StrangerName}: f**cking brilliant. 
+{$StrangerName}: Raphi, you know what! I also take another chug flight. 
+{$StrangerName}: This time it isf**cking brilliant. 
 {$StrangerName}: Let's drink together...
 {$StrangerName}: ...
 {$StrangerName}: What was your name again?
