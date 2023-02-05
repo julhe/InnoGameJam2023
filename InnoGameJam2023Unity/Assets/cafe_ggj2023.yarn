@@ -39,6 +39,7 @@ position: -59,-58
 -> Ask him about the camera. (Continue)
 <<SetAnimation Leonie Leonie_emo_Happy true>>
     Leonie: Hey, thats a cool camera! What model is that, I've never seen it before.
+   <<AddBloom 4>>
     <<jump Cafe_TheCamera>>
 
 ===
@@ -53,6 +54,7 @@ Stranger: Yeah... that is a Opus X200... from the 1950.
 He regains his focus.
 Stranger: I'm Mert by the way.
 Leonie: Oh, yeah... hi, I'm Leonie.
+<<AddBloom 2>>
 
 <<jump Cafe_Conversation>>
 ===
@@ -73,6 +75,7 @@ position: 418,-55
     He smiles.
     Mert: Thanks!
     Mert: We have an exhibition runing. Would you like to come?
+    <<AddBloom 4>>
     Leonie: Sure, I would love to see it.
     <<jump Cafe_Outro>>
 ===
@@ -83,6 +86,7 @@ position: 688,-48
 He writes down the name of the exibution on a small sheet of paper.
 Mert: It was nice talking to you. Maybe we'll see each other there. Have a good day.
 Leonie: Same! Have a good one.
+<<ShowCharacter Mert false>>
 You finish your cake and drink your Chai Latte, stuff the sheet into your 
 bag and go home to unpack some boxes.
 
