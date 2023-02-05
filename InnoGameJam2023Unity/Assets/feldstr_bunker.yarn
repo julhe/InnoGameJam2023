@@ -48,7 +48,7 @@ Leonie:
     DJ Moin: I'm the act for tonight! They have TASTE! 
     DJ Moin: My name is DJ Moin.
     Leonie: Yeah, uhm... you just said that.
-    
+    <<SetBloomImageBrown true>>
     DJ Moin: Remember "We Are The Stars Of Tommorow" from 2005?
     Leonie: ...
     DJ Moin: 4 Weeks on \#12 in the charts.
@@ -78,6 +78,7 @@ DJ Moin:Can you believe this place is out of duct tape? How do they even keep th
 DJ Moin: I think highly of this place, but this IS disapointing.
 DJ Moin: You know whats not dissapointing?
 Again, he doesn't expect you to answer.
+<<SetBloomUIBrown true>>
 DJ Moin: I played all these fesitvals known to man.
 
 -> Let him continue.
