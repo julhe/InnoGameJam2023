@@ -61,7 +61,7 @@ position: 298,297
 -> "What was the last thing you wrote?" (Continue)
     Granny: Well I wanted to tell them that I'm a little sick and...
     She scrolls up the text messages. Her last message appears.
-    It reads - <i>Waltraut: *PukeEmoji* *PukeEmoji* *PukeEmoji* </i>
+    It reads - <i>Waltraud: *PukeEmoji* *PukeEmoji* *PukeEmoji* </i>
     // <<SetAnimation Granny Granny_emo_sad false>>
     Granny: What? No, no, no thats surley NOT what I wanted to write.
     <<jump Granny_Son>>
