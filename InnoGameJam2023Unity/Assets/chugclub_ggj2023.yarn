@@ -49,7 +49,7 @@ position: -508,16
 ---
 Stranger: (chug, chug, chug... gulp)
 Stranger: Thanks!
-<<SetAnimation Robyn Robyn_emo_happy true>>
+<<SetAnimation Robyn Robyn_emo_smile true>>
 Stranger: That helped. 
 <<jump chug3>>
 ===
@@ -57,7 +57,7 @@ Stranger: That helped.
 title: chug3
 position: -509,190
 ---
-<<SetAnimation Robyn Robyn_emo_happy false>>
+<<SetAnimation Robyn Robyn_emo_smile false>>
 
 The stranger takes a sip of their alcoholic drink, which is topped with 
 purple foam. They notice you staring at their drink.
@@ -68,7 +68,7 @@ title: robyn3
 position: -749,257
 ---
 Stranger: Is this your first time here? 
-<<SetAnimation Robyn Robyn_emo_happy true>>
+<<SetAnimation Robyn Robyn_emo_smile true>>
 <<jump chugMC2>>
 ===
 
@@ -100,7 +100,7 @@ title: robyn5
 position: -132,-185
 ---
 Stranger: Whoah and this place was one of the first ones you visited after moving here? 
-<<SetAnimation Robyn Robyn_emo_excited true>>
+<<SetAnimation Robyn Robyn_emo_Excited true>>
 Stranger: Amazing! Good Choice 
 Stranger: Do you know anything about this place? Did you check out the menu?
 <<jump chugMC3>>
@@ -118,7 +118,7 @@ I don't know anything, just checked out a guide for people who are new to town.
 title: chugMC4
 position: -134,152
 ---
-<<SetAnimation Robyn Robyn_emo_happy true>>
+<<SetAnimation Robyn Robyn_emo_smile true>>
 <<declare $HasOrderedDrink to false>>
 <<declare $HasTapWater to false>>
 <<declare $HasAsked to false>>
@@ -159,7 +159,7 @@ position: -134,496
 ---
 //Robyns Name known?
 {$StrangerName}: If you're open for surprises you could take the Chug Flight. 
-<<SetAnimation Robyn Robyn_emo_excited true>>
+<<SetAnimation Robyn Robyn_emo_Excited true>>
 {$StrangerName}: Or I'd say I absolutely <b>recommend</b> you the Chug Flight. 
 {$StrangerName}: It's 3 small drinks with 2 drinks available the whole week and 1 drink
 {$StrangerName}: which is changed daily, the so called "Choice Of The Day".
@@ -224,7 +224,7 @@ Leonie: Hahahaha okay, I guess it is something people from Hamburg would never d
 {$StrangerName}: No we wouldn't, but anyways - Welcome to Hamburg! 
 {$StrangerName}: Cheers!
 <<SetAnimation Leonie Leonie_emo_Happy true>>
-<<SetAnimation Robyn Robyn_emo_happy true>>
+<<SetAnimation Robyn Robyn_emo_smile true>>
 You clink glasses and smile at each other.
 <<jump chugMC4>>
 ===
@@ -261,7 +261,7 @@ position: 1113,-571
 <<SetAnimation Leonie Leonie_emo_excited true>>
 Leonie: Haha, its Leonie, thanks for the suggestion. I am so excited for the drinks!
 {$StrangerName}: You're welcome
-<<SetAnimation Robyn Robyn_emo_excited true>>
+<<SetAnimation Robyn Robyn_emo_Excited true>>
 {$StrangerName}: Is there anything else you wanna know?
 They take another sip from one of their fancy chug glasses.
 <<jump chugDrinkYN4>>
@@ -270,14 +270,14 @@ They take another sip from one of their fancy chug glasses.
 title: robynChugPlace1
 position: -504,715
 ---
-<<SetAnimation Robyn Robyn_emo_happy true>>
+<<SetAnimation Robyn Robyn_emo_smile true>>
 {$StrangerName}: Glad you asked!
 {$StrangerName}: This place is female owned by Betty, who had her own vision about it.
 {$StrangerName}: She made the Chug Club without any partners or even architects from the outside
 {$StrangerName}: They serve Mezcal and Tequila in different styles. 
 {$StrangerName}: They even won prizes with their concept of serving small cocktails to make it possible for everyone to get to know different tastes and try new things.
 {$StrangerName}: As you have probably noticed, its pretty cozy here. It's actually one of my favorite places in Hamburg. 
-<<SetAnimation Robyn Robyn_emo_excited true>>
+<<SetAnimation Robyn Robyn_emo_Excited true>>
 {$StrangerName}: And I can smoke here so - perfect for me <3.
 {$StrangerName}: Is there anything else you wanna know?
 <<jump chugMC4>>
@@ -297,7 +297,7 @@ position: 718,485
 ---
 Robyn: I am Robyn, pronouns are they/them please <3
 <<set $StrangerName to "Robyn">>
-<<SetAnimation Robyn Robyn_emo_happy true>>
+<<SetAnimation Robyn Robyn_emo_smile true>>
 Robyn: I was born and raised in Hamburg and know the beeest spots here. 
 Robyn: I could show you some of my favorite locations, so you won't need your "Insider App" anymore. 
 Robyn: Why did you move here? Is it your first own flat or shared apartment?

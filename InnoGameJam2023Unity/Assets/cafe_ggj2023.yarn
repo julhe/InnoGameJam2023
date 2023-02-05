@@ -65,14 +65,14 @@ position: 418,-55
 ---
 -> Leonie: How did you get that camera?
     Mert: It was a gift, from my uncle.
-    // his uncle was a refuge from the iran revolution?
+ 
     <<jump Cafe_Conversation>>
 -> Leonie: Your book also seems interesting. What is it about?
     Mert: I just got this from the university library. 
     Mert: I'm a photography student and especially interested architecture. 
     Mert: Thats why this one was intruiging.
     Leonie: Oh cool!
-    //<<SetAnimation Mert Mert_emo_happy true>>
+    <<SetAnimation Mert Student_emo_smile true>>
     He smiles.
     Mert: Thanks!
     Mert: We have an exhibition runing. Would you like to come?
