@@ -11,10 +11,10 @@ While checking your phone for the line up of tonight...
 He wears a snapback(tm) and has a noticedable bad posture.
 
 DJ: Hey Diggi, got a lighter?
-Leonie: 
--> "Uh, yeah, here you go."
+
+-> Leonie: "Uh, yeah, here you go."
     DJ : Ah thanks Diggi. Muuuch apreciated. 
--> "I don't smoke." 
+-> Leonie: "I don't smoke." 
     DJ: Oh wait I got one myself. Haha! No worries, no worries. DJ Moin has it under control!
 He tries to get the lighter to work.
 He fails miserably for 20 seconds that feel endless.
@@ -24,15 +24,15 @@ Leonie: Who?
 <<SetAnimation DJ DJ_emo_confused true>>
 DJ Moin: Diggi, you don't belong to the crew?
 
--> Uh yeah, I don't work here.
+-> Leonie: Uh yeah, I don't work here.
     DJ Moin: Ah, to baaad! 
     DJ Moin: I think everybody is missing out. Nowadays everyone has something better to do. 
     DJ Moin: Sad for THEM. 
     <<SetAnimation DJ DJ_emo_laughing true>>
     <<jump DJ_ShowBiz_Lecture>>>
 
--> Oh Matze, yeah... Haha! (lie)
-     <<SetAnimation DJ DJ_emo_laughing true>>
+-> Leonie: Oh Matze, yeah... Haha! (lie)
+    <<SetAnimation DJ DJ_emo_laughing true>>
     <<jump DJ_LieAboutKnowingMatze>>
 
 ===
@@ -83,9 +83,9 @@ Again, he doesn't expect you to answer.
 <<SetBloomUIBrown true>>
 DJ Moin: I played all these fesitvals known to man.
 
--> Let him continue.
--> "Like what?"
--> "Uh sure..."
+-> Leonie: Let him continue.
+-> Leonie: "Like what?"
+-> Leonie: "Uh sure..."
 
 DJ Moin: YEAH!
 DJ Moin: Airbeat One 2022, man!

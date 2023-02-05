@@ -305,7 +305,7 @@ Leonie: For my studies.
 <<SetAnimation Leonie Leonie_emo_Happy true>>
 Leonie: And yes this is the first time I live apart form my parents. I already miss them, but am sooo excited for the future in my own flat.
 Robyn: Do you already know people here?
-Leonie: 
+
 -> Leonie: Not yet, I'm glad I met you. Maybe you can really show me your favorite places in Hamburg
     <<AddBloom 2>>
     <<jump robynShowMe1>>
