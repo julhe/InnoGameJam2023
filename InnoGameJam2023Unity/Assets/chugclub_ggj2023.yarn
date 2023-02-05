@@ -7,7 +7,7 @@ The Chug Club.
 On your way to your destination you pass the Reeperbahn, a huge road with 
 all kinds of theaters, sex shops, brothels, bars, take away food and flashy neon signs. 
 You remember the documentary about the Penny supermarket at the heart of the street. 
-Maybe you'll be able to take a picture of it to show it to your friends on WhatsApp. 
+Maybe you'll be able to take a picture of it to show to your friends on WhatsApp. 
 
 
 <<jump robyn1>>
@@ -75,8 +75,7 @@ Stranger: Is this your first time here?
 title: chugMC2
 position: -287,-685
 ---
-Leonie: Yes.
-Leonie: I just moved here. 
+Leonie: Yes. I just moved here. 
 <<jump robyn4>>
 ===
 
@@ -84,7 +83,7 @@ title: robyn4
 position: -135,-514
 ---
 Stranger: Oh! So you don't know anything about Hamburg yet. 
-Stranger: Apart from the usual touristy stuff right?
+Stranger: ...Apart from the usual touristy stuff right?
 <<jump chug4>>
 ===
 
@@ -111,7 +110,7 @@ position: -134,-14
 ---
 Leonie: Thanks!
 <<SetAnimation Leonie Leonie_emo_excited true>>
-I don't know anything, just checked out a guide for people who are new to town. 
+I don't know anything, just checked out a guide for people that are new to town. 
 <<jump chugMC4>>
 ===
 
