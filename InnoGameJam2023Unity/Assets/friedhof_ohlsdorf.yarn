@@ -106,7 +106,7 @@ Granny: Can you show me how.
 You would roll your eyes, if you were sure she woldn't get wind of it. 
 So you hold it back at any cost, beacuse you don't want to upset her any more than she already is.
 Leonie: Yes.
-// <<SetAnimation Granny Granny_emo_smile true>>
+// <<SetAnimation Granny Granny_emo_happy true>>
 
 You help her to open the camera app so that she can take a picture of the grave.
 <<AddBloom 2>>
@@ -127,7 +127,7 @@ After a short while she drops her arm.
 Granny: Hes not picking up.
 Leonie: You could text him?
 Granny: Of course!
-// <<SetAnimation Granny Granny_emo_smile true>>
+// <<SetAnimation Granny Granny_emo_happy true>>
 <<jump Granny_TextSon>>
 ===
 
