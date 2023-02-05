@@ -42,7 +42,7 @@ position: 551,-45
 DJ: It's so cool working in showbiz!
 Leonie:
 -> Really?
-    DJ Moin: Yeah, do I look bored to you?? I AM DJ Moin!
+    DJ Moin: Yeah, do I look boring to you?? I AM DJ Moin!
     <<jump DJ_ShowBiz_Lecture>>
 
 -> What is your part here? (Continue)
@@ -50,7 +50,7 @@ Leonie:
     DJ Moin: My name is DJ Moin.
     Leonie: Yeah, uhm... you just said that.
     <<SetBloomImageBrown true>>
-    DJ Moin: Remember "We Are The Stars Of Tommorow" from 2005?
+    DJ Moin: Remember "We Are The Stars Of Tomorow" from 2005?
     Leonie: ...
     DJ Moin: 4 Weeks on \#12 in the charts.
     There is no way you'd remeber that. Back then you were a toddler.
