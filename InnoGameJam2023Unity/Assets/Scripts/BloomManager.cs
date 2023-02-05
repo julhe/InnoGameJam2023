@@ -48,7 +48,7 @@ public class BloomManager : MonoBehaviour {
         totalBloom = Mathf.Clamp(totalBloom, 0, maxBloom);
         float totalBloom01 = totalBloom / (float) maxBloom;
         FillImageContainer.DOFillAmount(totalBloom01, 2.0f);
-        int bloomSpriteIndex = Mathf.FloorToInt(totalBloom01 * BloomSprites.Length);
-        BloomImageContainer.sprite = BloomSprites[Mathf.Min(bloomSpriteIndex, BloomSprites.Length - 1)];
+        int bloomSpriteIndex = Mathf.FloorToInt(totalBloom01 * BloomSprites.Length - 1);
+        BloomImageContainer.sprite = BloomSprites[Mathf.Clamp(bloomSpriteIndex, 0, BloomSprites.Length - 1)];
     }
 }
