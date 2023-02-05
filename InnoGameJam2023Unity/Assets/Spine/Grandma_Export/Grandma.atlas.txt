@@ -1,6 +1,7 @@
 Grandma.png
 size:1024,1024
 filter:Linear,Linear
+pma:true
 Eye_Blink
 bounds:560,357,127,38
 GrandmaDistressed
