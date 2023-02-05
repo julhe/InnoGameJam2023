@@ -111,5 +111,7 @@ DJ Moin: Whats your name?
     You will defnitely NOT show up there and go home. Maybe you'll visit the bunker at another time.
 
 <<ShowCharacter DJ false>>
+<<SetBloomUIBrown false>>
+<<SetBloomImageBrown false>>
 <<jump intro6>>
 ===
