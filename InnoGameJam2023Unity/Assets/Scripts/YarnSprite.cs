@@ -24,7 +24,7 @@ public class YarnSprite : MonoBehaviour
             if (yarnSprite.name != refName) continue;
 
             if (!yarnSprite.TryGetComponent(out SkeletonGraphic skeletonGraphic)) continue;
-            
+
             if (play) {
                 skeletonGraphic.AnimationState.SetAnimation(1, animationName, true);
             }

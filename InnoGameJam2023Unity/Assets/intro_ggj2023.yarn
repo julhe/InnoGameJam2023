@@ -1,4 +1,5 @@
 title: intro
+position: 291,-1183
 ---
 
 //<<set $location to "rain">> NICE TO HAVE
@@ -16,6 +17,7 @@ The monstera your parents gifted you is in dire need of water.
 ===
 
 title: MC1
+position: -82,-1193
 ---
 //<<SetAnimation Leonie Leonie_emo_lol true>>
 //<<AddBloom 2>>
@@ -34,6 +36,7 @@ Leonie: I miss them.
 ===
 
 title: intro2
+position: -108,-1003
 ---
 You look around your new flat which is small, 
 <<SetAnimation Leonie Leonie_emo_sad false>>
@@ -53,6 +56,7 @@ close your eyes.
 ===
 
 title: MC2
+position: -146,-760
 ---
 Leonie: I need to check out the city tomorrow and send everyone nice pictures. 
 Leonie: Maybe I can even meet new people. 
@@ -67,6 +71,7 @@ Leonie: 10 sounds good...
 ===
 
 title: intro3
+position: -146,-591
 ---
 <<SetBackground black>>
 You fall asleep almost instantly in your warm bed. 
@@ -74,12 +79,14 @@ You fall asleep almost instantly in your warm bed.
 ===
 
 title: MC3
+position: -145,-386
 ---
 Leonie: zzZZZzzz
 <<jump intro4>>
 ===
 
 title: intro4
+position: -212,-155
 ---
 04.03. 2023 - Home
 Weather - Cloudy
@@ -94,6 +101,7 @@ Your gaze lingers on the unopened boxes.
 ===
 
 title: MC4
+position: 115,-127
 ---
 Leonie: (yawn) 
 Leonie: Whoah! 
@@ -104,15 +112,16 @@ Leonie: No slacking off gurl ^_^! Time to get ready.
 ===
 
 title: intro5
+position: 492,-124
 ---
 <<ShowCharacter Leonie false>>
-You jump unter the shower, shove some of the sweets from the gift basket, your parents gave you for your first 
-own flat, into your mouth and get dressed in your feel good clothes. 
+You take a shower, shove some candy from your parents gift basket, into your mouth and get dressed in your feel good clothes. 
 Your favorite scarf, your mom gave you 5 years ago, lets you feel nostalgic, as you wrap it around your neck. 
-You open your phone to check out "The best insider tipps for new Hamburgers"
+You open your phone to check out "Best insider tipps in Hamburger 2023".
 <<jump intro6>>
 ===
 title: intro6
+position: 737,-265
 ---
 //evtl besser formulieren
 <<SetBackground LoadingScreen>>
