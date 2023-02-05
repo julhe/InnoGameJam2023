@@ -63,11 +63,11 @@ Leonie: Oh, yeah... hi, I'm Leonie.
 title: Cafe_Conversation
 position: 418,-55
 ---
--> How did you get that camera?
+-> Leonie: How did you get that camera?
     Mert: It was a gift, from my uncle.
     // his uncle was a refuge from the iran revolution?
     <<jump Cafe_Conversation>>
--> Your book also seems interesting. What is it about?
+-> Leonie: Your book also seems interesting. What is it about?
     Mert: I just got this from the university library. 
     Mert: I'm a photography student and especially interested architecture. 
     Mert: Thats why this one was intruiging.

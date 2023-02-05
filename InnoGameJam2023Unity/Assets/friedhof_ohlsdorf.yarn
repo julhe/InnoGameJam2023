@@ -16,10 +16,10 @@ She's tapping on her phone and seems upset.
 Just as you pass her by...
 
 Granny: Young lady, could you help me?
-Leonie:
+
 -> Leonie: "Okay, but just for a moment."
     <<AddBloom 2>>
--> Ignore her
+-> Leonie: Ignore her
     You want to but can't. Who woudn't help an old lady?
     Shes propably visiting the grave of her relatives.
     Have you no heart?
@@ -34,7 +34,7 @@ title: Granny_Phone
 position: 46,297
 ---
 She pulls out a hankerchief and sneezes into it.
-Leonie:
+
 -> Leonie: "Hm, Can you show me your phone?" (Continue)
     <<AddBloom 2>>
     She steps beside you, holding her phone closer to you.
@@ -51,13 +51,13 @@ Leonie:
 title: Granny_Discussion
 position: 298,297
 ---
--> "Maybe you left the group on accident?"
+-> Leonie: "Maybe you left the group on accident?"
     Granny: Did I?
     Granny: I get so confused with this thing. :( 
     // <<SetAnimation Granny Granny_emo_sad true>>
     She's sounds almost whiney.
     <<jump Granny_Discussion>>
--> "What was the last thing you wrote?" (Continue)
+-> Leonie: "What was the last thing you wrote?" (Continue)
     Granny: Well I wanted to tell them that I'm a little sick and...
     She scrolls up the text messages. Her last message appears.
     It reads - <i>Waltraud/: *PukeEmoji* *PukeEmoji* *PukeEmoji* </i>
@@ -131,7 +131,7 @@ Granny: Of course!
 title: Granny_Picture
 position: 1256,324
 ---
-Leonie:
+
 -> Leonie: "Such pretty flowers. Did you bring them here?"
     <<AddBloom 2>>
     Granny: Thank you!
