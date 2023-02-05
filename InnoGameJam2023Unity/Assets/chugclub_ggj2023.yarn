@@ -9,7 +9,6 @@ all kinds of theaters, sex shops, brothels, bars, take away food and flashy neon
 You remember the documentary you saw about the Penny supermarket at the heart of the street. 
 Maybe you'll be able to take a picture of it to show it to your friends on WhatApp. 
 
-//- side street of the Reeberbahn
 
 <<jump robyn1>>
 ===
@@ -32,7 +31,7 @@ title: chugMC1
 position: -519,-340
 ---
 Leonie: Are you really okay?
-Leonie: They have tap water here. 
+Leonie: Have some tap water!
 <<jump chug2>>
 ===
 
@@ -48,7 +47,7 @@ position: -508,16
 ---
 Stranger: (chug, chug, chug... gulp)
 Stranger: Thanks!
-<<set $emotion to "Robynsmile">>
+<<SetAnimation Leonie Robyn_emo_smile true>>
 Stranger: That helped. 
 <<jump chug3>>
 ===
