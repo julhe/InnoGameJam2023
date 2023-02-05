@@ -9,8 +9,8 @@ Weather - Rainy
 <<ShowCharacter Leonie true>>
 You are exhausted from your move. 
 800 km in one day.
-Aarrying all of your belongings into and out of the truck was harder than you thought. 
-The furniture is half built and there are boxes everywhere. 
+Carrying all of your belongings around was harder than you thought. 
+The furniture is half built and boxes are everywhere. 
 <<ShowCharacter Monstera true>>
 The monstera your parents gifted you is in dire need of water.
 <<jump MC1>>
@@ -23,7 +23,7 @@ position: -82,-1193
 //<<AddBloom 2>>
 Leonie: Man I wish I'd already knew people from here. Carrying all the boxes with only 
 //<<AddBloom 2>>
-Leonie: mom, dad and Klement really drained my whole energy. At least at home I had my friends to help me. 
+Leonie: Mom, Dad and Brother really drained my whole energy. At least at home I had my friends to help me. 
 //<<SetAnimation Leonie Leonie_emo_lol false>>
 //<<SetBloomImageBrown true>>
 //<<AddBloom 2>>
@@ -92,7 +92,7 @@ position: -212,-155
 Weather - Cloudy
 Your phone rings in the typical, soft jingle, Android way. 
 //A soft jingle, that lets you oversleep from to time.
-It seriously isn't stressful or loud enough to wake you up. 
+It usually isn't stressful or loud enough to wake you up. 
 <<SetBackground home>>
 This time it actualy worked like a charm. 
 You open your eyes.
@@ -117,6 +117,7 @@ title: intro5
 position: 492,-124
 ---
 <<ShowCharacter Leonie false>>
+<<SetBackground LoadingScreen>>
 You take a shower, shove some candy from your parents gift basket into your mouth and get dressed in your feel-good clothes. 
 Your favorite scarf, your mom gave you 5 years ago, lets you feel nostalgic, as you wrap it around your neck. 
 You open your phone to check out "Best insider tipps in Hamburger 2023".
@@ -128,7 +129,6 @@ position: 737,-265
 //evtl besser formulieren
 <<SetBackground LoadingScreen>>
 <<AddBloom -1000>>
-<<ShowCharacter Leonie true>>
 
 <<declare $VisitedGranny to false>>
 <<declare $VisitedOttensen to false>>

@@ -32,12 +32,12 @@ title: Cafe_Opener
 position: -59,-58
 ---
 
--> Don't disturb the man.
+-> Leonie: Don't disturb the man.
     You decide to open your Laptop.
     He opens a book about architectual photographie in post-war era.
     <<jump Cafe_Opener>>
 
--> Ask him about the camera. (Continue)
+-> Leonie: Ask him about the camera. (Continue)
 <<SetAnimation Leonie Leonie_emo_Happy true>>
     Leonie: Hey, thats a cool camera! What model is that, I've never seen it before.
    <<AddBloom 4>>

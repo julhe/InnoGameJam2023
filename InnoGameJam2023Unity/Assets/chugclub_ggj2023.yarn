@@ -16,6 +16,8 @@ Maybe you'll be able to take a picture of it to show it to your friends on Whats
 title: robyn1
 position: -515,-514
 ---
+<<ShowCharacter Leonie true>>
+<<ShowCharacter Robyn true>>
 <<SetBackground ChugClub>>
 Stranger: (cough cough)
 Stranger: Don't look so scared, I am not sick. 
@@ -57,7 +59,7 @@ position: -509,190
 ---
 <<SetAnimation Robyn Robyn_emo_happy false>>
 
-The stranger takes a sip of their small drink, which is topped with 
+The stranger takes a sip of their alcoholic drink, which is topped with 
 purple foam. They notice you staring at their drink.
 <<jump robyn3>>
 ===
@@ -304,12 +306,12 @@ Leonie: For my studies.
 Leonie: And yes this is the first time I live apart form my parents. I already miss them, but am sooo excited for the future in my own flat.
 Robyn: Do you already know people here?
 Leonie: 
--> Not yet, I'm glad I met you. Maybe you can really show me your favorite places in Hamburg
+-> Leonie: Not yet, I'm glad I met you. Maybe you can really show me your favorite places in Hamburg
     <<AddBloom 2>>
     <<jump robynShowMe1>>
--> I don't
+-> Leonie: I don't
     <<jump robynNope1>>
--> Not yet, could you write some of your recommendations down?
+-> Leonie: Not yet, could you write some of your recommendations down?
     <<jump robynWrite1>>
 ===
 
@@ -319,13 +321,13 @@ position: 975,-74
 Robyn: Yeah! Sounds good! What do you like to see? What did you like in Stuttgart?
 Leonie: They definitely didn't have these Chugs. These are really really good. Thanks for recommenden them to me.
 <<SetAnimation Leonie Leonie_emo_excited true>>
-Leonie: 
--> I liked museums, fleamarkets and to visit friends in their flats. But I am pretty open to see lots of new things. 
+
+-> Leonie: I liked museums, fleamarkets and to visit friends in their flats. But I am pretty open to see lots of new things. 
     <<AddBloom 2>>
     <<jump LeonieOpen1>>
--> I don't know. I didn't do much in Stuttgart apart from chilling at home.
+-> Leonie: I don't know. I didn't do much in Stuttgart apart from chilling at home.
     <<jump LeonieClosed1>>
--> Can we maybe check on our phones whats available in Hamburg. I am really open to new things.
+-> Leonie: Can we maybe check on our phones whats available in Hamburg. I am really open to new things.
     <<AddBloom 1>>
     <<jump LeonieOpen1>>
 ===
@@ -336,13 +338,13 @@ position: 1198,369
 Robyn: Okay, we can change that! What do you like to see? What did you like in Stuttgart?
 Leonie: They definitely didn't have these Chugs. These are really really good. Thanks for recommending them to me.
 <<SetAnimation Leonie Leonie_emo_excited true>>
-Leonie: 
--> I liked museums, fleamarkets and to visit friends in their flats. But I am pretty open to see lots of new things. 
+
+-> Leonie: I liked museums, fleamarkets and to visit friends in their flats. But I am pretty open to see lots of new things. 
     <<AddBloom 2>>
     <<jump LeonieOpen1>>
--> I don't know. I didn't do much in Stuttgart apart from chilling at home.
+-> Leonie: I don't know. I didn't do much in Stuttgart apart from chilling at home.
     <<jump LeonieClosed1>>
--> Can we maybe check on our phones whats available in Hamburg. I am really open to new things.
+-> Leonie: Can we maybe check on our phones whats available in Hamburg. I am really open to new things.
     <<AddBloom 1>>
     <<jump LeonieOpen1>>
 ===
@@ -350,18 +352,18 @@ Leonie:
 title: LeonieOpen1
 position: 1771,-367
 ---
-Robyn: Sounds cool. There are several fleamarkts here. Even one in the evening at Rindermarkthalle on Wednesday. 
+Robyn: Sounds cool. There are several fleamarkets here. Even one in the evening at Rindermarkthalle on Wednesday. 
 Robyn: Since tomorrow is sunday, do you wanna go to see some Art? 
 Robyn: In a building that is called Jupiter next to Hauptbahnhof, there are always some nice exhibitions. 
 Robyn: It used to be a Karstadt Sport until a lot of Artists moved in. Do you wanna exchange numbers to meet up tomorrow? 
-Leonie: 
--> That does sound nice! Lets do that.
+ 
+-> Leonie: That does sound nice! Lets do that.
     <<AddBloom 2>>
     <<jump LeonieOpen2>>
--> Yeah, but maybe not tomorrow. Let's check for another date via WhatsApp.
+-> Leonie: Yeah, but maybe not tomorrow. Let's check for another date via WhatsApp.
     <<AddBloom 1>>
     <<jump LeonieWhatsapp1>>
--> I can give you my Insta and write you when I finished unpacking.
+-> Leonie: I can give you my Insta and write you when I finished unpacking.
     <<jump LeonieInsta1>>
 ===
 

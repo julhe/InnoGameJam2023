@@ -3,7 +3,7 @@ title: Granny_Intro
 position: -198,297
 ---
 Ohlsdorf - Cemetery.
-You felt like your monstera alone is not green enough, you crave for some more nature around you. 
+You felt like your monstera is not enough, you crave for some more nature around you. 
 You find the the Ohlsdorf Cemetery on Google maps. They wrote that it's the
 biggest park cemetery in the world. It exists since 1877.
 So why not pay it a visit?
@@ -17,7 +17,7 @@ Just as you pass her by...
 
 Granny: Young lady, could you help me?
 Leonie:
--> "Okay, but just for a moment."
+-> Leonie: "Okay, but just for a moment."
     <<AddBloom 2>>
 -> Ignore her
     You want to but can't. Who woudn't help an old lady?
@@ -25,7 +25,6 @@ Leonie:
     Have you no heart?
 
 Granny: I want to take a picture and send it to my family. But it says...
-She's adjusting her glasses.
 Granny: ...you are not part of this group.
 <<jump Granny_Phone>>
 
@@ -36,15 +35,15 @@ position: 46,297
 ---
 She pulls out a hankerchief and sneezes into it.
 Leonie:
--> "Hm, Can you show me your phone?" (Continue)
+-> Leonie: "Hm, Can you show me your phone?" (Continue)
     <<AddBloom 2>>
     She steps beside you, holding her phone closer to you.
     On her phone screen, you make out the familiar layout of an instant messanger.
     On top it reads: <i>Not part of the group "+00491...".</i>
     //umformulieren
-    You can't read more as the enourmous font size makes the word "screen real-estate" sound like a joke.
+    You can't read more as the enourmous font size is blocking the chacters that wouls follow.
     <<jump Granny_Discussion>>
--> "It means that you are not part of that group, I guess?" 
+-> Leonie: "It means that you are not part of that group, I guess?" 
     Granny: But why? This is my family!
     <<jump Granny_Phone>>
 ===
@@ -61,7 +60,7 @@ position: 298,297
 -> "What was the last thing you wrote?" (Continue)
     Granny: Well I wanted to tell them that I'm a little sick and...
     She scrolls up the text messages. Her last message appears.
-    It reads - <i>Waltraud: *PukeEmoji* *PukeEmoji* *PukeEmoji* </i>
+    It reads - <i>Waltraud/: *PukeEmoji* *PukeEmoji* *PukeEmoji* </i>
     // <<SetAnimation Granny Granny_emo_sad false>>
     Granny: What? No, no, no thats surley NOT what I wanted to write.
     <<jump Granny_Son>>
@@ -71,22 +70,20 @@ title: Granny_Son
 position: 530,299
 ---
     
-Leonie: "Who made this group?"
+Leonie: Who made this group?
 Granny: My son.
-Granny: If I wrote that...
-The topic makes her visibly uncomftable.
 // <<SetAnimation Granny Granny_emo_sad true>>
 Leonie: I mean I could see that one could... maybe... read it as offensive.
-She seems slightly more uncomftable.
+She seems uncomftable.
 // <<SetAnimation Granny Granny_emo_distressed true>>
 
 Leonie: ALTROUGH it's odd to throw someone out of a family group for this.
 Granny: You mean...
 
--> "Maybe you should call him?" (Continue)
+-> Leonie: "Maybe you should call him?" (Continue)
     <<AddBloom 2>>
     <<jump Granny_CallSon>>
--> "Maybe you should text him?" (Continue)
+-> Leonie: "Maybe you should text him?" (Continue)
     Granny: I can try.
     <<AddBloom 2>>
     <<jump Granny_TextSon>>
@@ -110,8 +107,8 @@ Leonie: Yes.
 
 You help her to open the camera app so that she can take a picture of the grave.
 <<AddBloom 2>>
-Granny: Thank you so much. I know how to do this in WhatsApp
-Granny: I didn't know my phone can do this.
+Granny: Thank you so much! I only know how to do this in WhatsApp
+Granny: I didn't know my phone can do it like that.
 //frontkamerajoke?
 <<jump Granny_Picture>>
 ===
@@ -135,14 +132,14 @@ title: Granny_Picture
 position: 1256,324
 ---
 Leonie:
--> "Such pretty flowers. Did you bring them here?"
+-> Leonie: "Such pretty flowers. Did you bring them here?"
     <<AddBloom 2>>
     Granny: Thank you!
     // <<SetAnimation Granny Granny_emo_dreamy true>>
     I did. I loved my huband so much!
     <<jump Granny_Picture>>
 
--> "I've got to go. Have a good day. I hope your son calls you back!"
+-> Leonie: "I've got to go. Have a good day. I hope your son calls you back!"
     Granny: Thank you so much for your help! Have a good time.
     <<ShowCharacter Granny false>>
     <<jump intro6>>
