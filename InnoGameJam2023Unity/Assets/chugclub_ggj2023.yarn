@@ -281,7 +281,8 @@ position: -504,715
 {$StrangerName}: Glad you asked!
 {$StrangerName}: This place is female owned by Betty, who had her own vision about it.
 {$StrangerName}: She made the Chug Club without any partners or even architects from the outside
-{$StrangerName}: They serve Mezcal and Tequila in different styles. They even won prizes with their concept of serving small cocktails to make it possible for everyone to get to know different tastes and try new things.
+{$StrangerName}: They serve Mezcal and Tequila in different styles. 
+{$StrangerName}: They even won prizes with their concept of serving small cocktails to make it possible for everyone to get to know different tastes and try new things.
 {$StrangerName}: As you have probably noticed, its pretty cozy here. It's actually one of my favorite places in Hamburg. 
 <<SetAnimation Robyn Robyn_emo_excited true>>
 {$StrangerName}: And I can smoke here so - perfect for me <3.

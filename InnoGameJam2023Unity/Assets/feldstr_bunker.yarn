@@ -5,8 +5,8 @@ position: -23,-50
 You heard from your friends that they had a pretty nice time at the Übel und Gefährlich in the Bunker at Feldstraße.
 Since you are pretty curious, you decide to check it out.
 <<SetBackground Bunker>>
-While checking your phone for the line up of tonight,
-a man in his mid thirites comes out of the side entrace.
+While checking your phone for the line up of tonight...
+...a man in his mid thirites comes out of the side entrace.
 <<ShowCharacter DJ true>>
 He wears a snapback(tm) and has a noticedable bad posture.
 
@@ -16,21 +16,21 @@ Leonie:
     DJ : Ah thanks Diggi. Muuuch apreciated. 
 -> "I don't smoke." 
     DJ: Oh wait I got one my self. Haha! No worries, no worries. DJ Moin has it under control!
-He tries to get the lighter to work and fails miserably for 20 seconds that feel endless.
+He tries to get the lighter to work.
+He fails miserably for 20 seconds that feel endless.
 DJ Moin: You also waiting for Matze?
 Leonie: Who?
-He looks confused, almost like he never talked to a human like you.
+//He looks confused, almost like he never talked to a human like you.
 <<SetAnimation DJ DJ_emo_confused true>>
 DJ Moin: Diggi, you don't belong to the crew?
 
-Leonie:
--> "Uh yeah, I don't work here."
+-> Uh yeah, I don't work here.
     DJ Moin: Ah, to baaad! 
     DJ Moin: I think everybody is missing out. Nowadays everyone has something better to do. Sad for THEM. 
     <<SetAnimation DJ DJ_emo_laughing true>>
     <<jump DJ_ShowBiz_Lecture>>>
 
--> "Oh Matze, yeah... Haha!" (lie)
+-> Oh Matze, yeah... Haha! (lie)
      <<SetAnimation DJ DJ_emo_laughing true>>
     <<jump DJ_LieAboutKnowingMatze>>
 
@@ -74,8 +74,9 @@ position: 272,-147
 ---
 DJ Moin: He is such a good lad, a bit lazy but a heart of gold. A real Bro.
 DJ Moin: Hey can you keep a secret? Diggi...
-He is not expecting you to wait for his next sentence.
-DJ Moin:Can you believe this place is out of duct tape? How do they even keep their shit together? HAHahahAHAHhaah
+//He is not expecting you to wait for his next sentence.
+He doesn't care if you can, he just talks.
+DJ Moin: Can you believe this place is out of duct tape? How do they even keep their shit together? HAHahahAHAHhaah
 DJ Moin: I think highly of this place, but this IS disapointing.
 DJ Moin: You know whats not dissapointing?
 Again, he doesn't expect you to answer.

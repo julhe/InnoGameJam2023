@@ -7,6 +7,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using Yarn.Unity;
+using Animation = Spine.Animation;
 
 public class YarnSprite : MonoBehaviour
 {
@@ -25,7 +26,17 @@ public class YarnSprite : MonoBehaviour
 
             if (!yarnSprite.TryGetComponent(out SkeletonGraphic skeletonGraphic)) continue;
 
+
+
             if (play) {
+                Animation anim = skeletonGraphic.SkeletonData.Animations.Find((x) => x.Name == animationName);
+                
+                if (anim == null) {
+                    Debug.LogError($"Cannot find animation {animationName}");
+                    // don't try to play animations that are not present.
+                    break;
+                }
+
                 skeletonGraphic.AnimationState.SetAnimation(1, animationName, true);
             }
             else {
