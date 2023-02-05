@@ -7,7 +7,7 @@ The Chug Club.
 On your way to your destination you pass the Reeperbahn, a huge road with 
 all kinds of theaters, sex shops, brothels, bars, take away food and flashy neon signs. 
 You remember the documentary you saw about the Penny supermarket at the heart of the street. 
-Maybe you'll be able to take a picture of it to show it to your friends on WhatApp. 
+Maybe you'll be able to take a picture of it to show it to your friends on WhatsApp. 
 
 
 <<jump robyn1>>
@@ -118,20 +118,25 @@ position: -134,152
 ---
 <<SetAnimation Robyn Robyn_emo_happy true>>
 <<declare $HasOrderedDrink to false>>
+<<declare $HasTapWater to false>>
+<<declare $HasAsked to false>>
 <<declare $StrangerName to "The Stranger">>
 -> Leonie: What kind of drink should I try here? <<if !$HasOrderedDrink>>
     <<set $HasOrderedDrink to true>>
     <<AddBloom 2>>
     <<jump robynDrink1>>
 
--> Leonie: This place looks fancy. Is there anything I should know about it? 
+-> Leonie: This place looks fancy. Is there anything I should know about it? <<if !$HasAsked>>
+    <<set $HasAsked to true>>
     <<AddBloom 1>>
     <<jump robynChugPlace1>>
-
--> Leonie: Is the tap water for free?
+    
+-> Leonie: Is the tap water for free? <<if !$HasTapWater>>
+    <<set $HasTapWater to true>>
     <<jump robynTapwater1>>
-/
--> Leonie: How about you? Are you from here? What's your name? <<if $StrangerName == "The Stranger">>
+    
+
+-> Leonie: How about you? Are you from here? What's your name? <<if $StrangerName == "The Stranger" && $HasAsked && $HasTapWater && $HasOrderedDrink>>
     <<AddBloom 2>>
     <<jump robynName1>>
 ===
@@ -336,7 +341,7 @@ title: robynNope1
 position: 1198,369
 ---
 Robyn: Okay, we can change that! What do you like to see? What did you like in Stuttgart?
-Leonie: They definitely didn't have these Chugs. These are really really good. Thanks for recommenden them to me.
+Leonie: They definitely didn't have these Chugs. These are really really good. Thanks for recommending them to me.
 <<SetAnimation Leonie Leonie_emo_excited true>>
 Leonie: 
 -> I liked museums, fleamarkets and to visit friends in their flats. But I am pretty open to see lots of new things. 
