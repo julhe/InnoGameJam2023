@@ -117,6 +117,7 @@ title: intro6
 ---
 //evtl besser formulieren
 <<SetBackground LoadingScreen>>
+<<AddBloom -1000>>
 <<ShowCharacter Leonie true>>
 New day new Leonie!
 Which place of Hamburg do you wanna explore?
