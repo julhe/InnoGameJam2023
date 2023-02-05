@@ -2,21 +2,21 @@
 title: Granny_Intro
 position: -198,297
 ---
-<b> BOLD</b>
-Ohlsdorf, graveyard.
-<<SetBackground black>>
+Ohlsdorf - Cemetery.
 You felt like your monstera alone is not green enough, you crave for some more nature around you. 
 You find the the Ohlsdorf Cemetery on Google maps. They wrote that it's the
 biggest park cemetery in the world. You found out that it exists since 1877.
 So why not pay it a visit?
 <<SetBackground Ohlsdorf>>
+<<ShowCharacter Leonie true>>
 You start strolling around and come along a row of graves,
 where an old lady stands in front of one of them with fresh flowers.
-Shes taping on her phone and seems upset.
+<<ShowCharacter Granny true>>
+Shes tapping on her phone and seems upset.
 Just as you pass her by...
 
 Granny: Young lady, could you help me this?
-<<ShowCharacter Leonie true>>
+Leonie:
 -> "Okay, but just for a moment."
 -> Ignore her
     You want to but can't. Who woudn't help an old lady?
@@ -53,6 +53,7 @@ position: 298,297
 -> "Maybe you left the group on accident?"
     Granny: Did I?
     Granny: I get so confused with this thing. :( 
+   // <<SetAnimation >>
     She's sounds almost whiney.
     <<jump Granny_Discussion>>
 -> "What was the last thing you wrote?" (Continue)
