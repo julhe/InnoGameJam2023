@@ -21,18 +21,18 @@ He fails miserably for 20 seconds that feel endless.
 DJ Moin: You also waiting for Matze?
 Leonie: Who?
 //He looks confused, almost like he never talked to a human like you.
-<<SetAnimation DJ DJ_emo_confused true>>
+<<SetAnimation DJ DJMoin_emo_confused true>>
 DJ Moin: Diggi, you don't belong to the crew?
 
 -> Leonie: Uh yeah, I don't work here.
     DJ Moin: Ah, to baaad! 
     DJ Moin: I think everybody is missing out. Nowadays everyone has something better to do. 
     DJ Moin: Sad for THEM. 
-    <<SetAnimation DJ DJ_emo_laughing true>>
+    <<SetAnimation DJ DJMoin_emo_laughing true>>
     <<jump DJ_ShowBiz_Lecture>>>
 
 -> Leonie: Oh Matze, yeah... Haha! (lie)
-    <<SetAnimation DJ DJ_emo_laughing true>>
+    <<SetAnimation DJ DJMoin_emo_laughing true>>
     <<jump DJ_LieAboutKnowingMatze>>
 
 ===
