@@ -1,0 +1,16 @@
+Robyn.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+Eye_blink
+bounds:6,840,98,48
+arm_b
+bounds:110,799,89,482
+rotate:90
+arm_f
+bounds:598,701,274,187
+body
+bounds:371,6,517,689
+head
+bounds:6,506,287,359
+rotate:90
