@@ -37,7 +37,7 @@ title: intro2
 You look around your new flat which is small, 
 <<SetAnimation Leonie Leonie_emo_sad false>>
 but lets your imagination run wild. 
-<<SetAnimation Leonie Leonie_emo_smile true>>
+<<SetAnimation Leonie Leonie_emo_Happy true>>
 Surely in a few weeks this place will be the coziest in the world and a place for 
 your many new aquaintances. 
 But enough for today!
@@ -58,7 +58,7 @@ Leonie: Maybe I can even meet new people.
 Leonie: I can unbox my stuff anytime anyways.
 Leonie: When do I want to get up? 
 <<SetBackground home>>
-<<SetAnimation Leonie Leonie_emo_smile false>>
+<<SetAnimation Leonie Leonie_emo_Happy false>>
 <<ShowCharacter Leonie true>>
 Leonie: 10 sounds good...
 <<ShowCharacter Leonie false>>

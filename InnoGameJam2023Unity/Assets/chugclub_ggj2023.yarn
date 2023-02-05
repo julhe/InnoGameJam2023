@@ -47,7 +47,7 @@ position: -508,16
 ---
 Stranger: (chug, chug, chug... gulp)
 Stranger: Thanks!
-<<SetAnimation Leonie Robyn_emo_smile true>>
+<<SetAnimation Robyn Robyn_emo_happy true>>
 Stranger: That helped. 
 <<jump chug3>>
 ===
@@ -55,9 +55,9 @@ Stranger: That helped.
 title: chug3
 position: -509,190
 ---
-<<set $emotion to "Robynstandard">>
+<<SetAnimation Robyn Robyn_emo_happy false>>
 
-The stranger stops coughing and takes a sip of their small drink, which is topped with 
+The stranger takes a sip of their small drink, which is topped with 
 purple foam. They notice you staring at their drink.
 <<jump robyn3>>
 ===
@@ -66,7 +66,7 @@ title: robyn3
 position: -749,257
 ---
 Stranger: Is this your first time here? 
-<<set $emotion to "Robynsmile">>
+<<SetAnimation Robyn Robyn_emo_happy true>>
 <<jump chugMC2>>
 ===
 
@@ -74,8 +74,7 @@ title: chugMC2
 position: -287,-685
 ---
 Leonie: Yes.
-Leonie: I just moved here yesterday. 
-//if etc. Tag ausrechnen
+Leonie: I just moved here. 
 <<jump robyn4>>
 ===
 
@@ -90,7 +89,7 @@ Stranger: Apart from the usual touristy stuff right?
 title: chug4
 position: -134,-356
 ---
-<<set $emotion to "Leoniesmile">>
+<<SetAnimation Leonie Leonie_emo_Happy true>>
 You nod and take the glass of water the stranger just handed you.
 <<jump robyn5>>
 ===
@@ -99,8 +98,8 @@ title: robyn5
 position: -132,-185
 ---
 Stranger: Whoah and this place was one of the first ones you visited after moving here? 
+<<SetAnimation Robyn Robyn_emo_excited true>>
 Stranger: Amazing! Good Choice 
-<<set $emotion to "Robynexcited">>
 Stranger: Do you know anything about this place? Did you check out the menu?
 <<jump chugMC3>>
 ===
@@ -109,7 +108,7 @@ title: chugMC3
 position: -134,-14
 ---
 Leonie: Thanks!
-<<set $emotion to "Leonieexcited">>
+<<SetAnimation Leonie Leonie_emo_excited true>>
 I don't know anything, just checked out a guide for people who are new to town. 
 <<jump chugMC4>>
 ===
@@ -117,22 +116,24 @@ I don't know anything, just checked out a guide for people who are new to town.
 title: chugMC4
 position: -134,152
 ---
-<<set $emotion to "Robynstandard">>
+<<SetAnimation Robyn Robyn_emo_happy true>>
 <<declare $HasOrderedDrink to false>>
 <<declare $StrangerName to "Stranger">>
 -> Leonie: What kind of drink should I try here? <<if !$HasOrderedDrink>>
     <<set $HasOrderedDrink to true>>
+    <<AddBloom 2>>
     <<jump robynDrink1>>
-//+1
+
 -> Leonie: This place looks fancy. Is there anything I should know about it? 
+    <<AddBloom 1>>
     <<jump robynChugPlace1>>
-//+1
+
 -> Leonie: Is the tap water for free?
     <<jump robynTapwater1>>
-//+0
+/
 -> Leonie: How about you? Are you from here? What's your name? <<if $StrangerName == "Stranger">>
+    <<AddBloom 2>>
     <<jump robynName1>>
-//+2
 ===
 
 title: robynDrink1
@@ -151,8 +152,8 @@ position: -134,496
 ---
 //Robyns Name known?
 Robyn/Stranger: If you're open for surprises you could take the Chug Flight. 
+<<SetAnimation Robyn Robyn_emo_excited true>>
 Robyn/Stranger: Or I'd say I absolutely <b>recommend</b> you the Chug Flight. 
-<<set $emotion to "Robynexcited">>
 Robyn/Stranger: It's 3 small drinks with 2 drinks available the whole week and 1 drink
 Robyn/Stranger: which is changed daily, the so called "Choice Of The Day".
 Robyn/Stranger: In the many drinks I had, which I really dont want t count I only had one that
@@ -195,7 +196,7 @@ Robyn/Stranger: f**cking brilliant.
 Robyn/Stranger: Let's drink together...
 Robyn/Stranger: ...
 Robyn/Stranger: What was your name again?
-<<set $emotion to "Leonieexcited">>
+<<SetAnimation Leonie Leonie_emo_excited true>>
 Leonie: Haha, its Leonie, thanks for the suggestion. I am so excited for the drinks!
 <<jump chugDrinkY3>>
 ===
@@ -214,16 +215,17 @@ position: 1861,-780
 ---
 You take a few pictures with your phone. 
 Leonie: Ok, this is better than taking photos of the Penny-Markt.
-<<set $emotion to "LeonieLOL">>
+<<SetAnimation Leonie Leonie_emo_lol true>>
 Robyn/Stranger: You wanted to do WHAT? 
-<<set $emotion to "RobynLOL">>
+<<SetAnimation Robyn Robyn_emo_lol true>>
 Leonie: Well I saw a documentary of the Penny supermarket on Youtube with my friends in Stuttgart.
 Leonie: I thought it would be funny to send them pictures of it. 
 Robyn/Stranger: LOOOOL. AHAHAHAHAAHAHAHA. NO WAY!
-You blush but start to laugh too.
 Leonie: Hahahaha okay, I guess it is something people from Hamburg would never do. 
 Robyn/Stranger: No we wouldn't, but anyways - Welcome to Hamburg! 
 Robyn/Stranger: Cheers!
+<<SetAnimation Leonie Leonie_emo_Happy true>>
+<<SetAnimation Robyn Robyn_emo_happy true>>
 You clink glasses and smile at each other.
 <<jump chugMC4>>
 ===
@@ -235,9 +237,8 @@ You browse through the menu and see a looot of fancy drinks. It takes you foreve
 Robyn/Stranger: Do you like sour, sweet or bitter drinks? 
 Leonie: I prefer sweet!
 Robyn/Stranger: Okay thenn, I'd say you could try the Golden Nugget.
-<<set $emotion to "Robynsmile">>
 Leonie: Thanks, sounds like a good Idea
-//+1
+<<AddBloom 1>>
 <<jump chugDrinkN2>>
 ===
 
@@ -258,10 +259,10 @@ Robyn/Stranger: f**cking brilliant.
 Robyn/Stranger: Let's drink together...
 Robyn/Stranger: ...
 Robyn/Stranger: What was your name again?
-<<set $emotion to "Leonieexcited">>
+<<SetAnimation Leonie Leonie_emo_excited true>>
 Leonie: Haha, its Leonie, thanks for the suggestion. I am so excited for the drinks!
 Robyn/Stranger: You're welcome
-<<set $emotion to "Robynexcited">>
+<<SetAnimation Robyn Robyn_emo_excited true>>
 Robyn/Stranger: Is there anything else you wanna know?
 They take another sip from one of their fancy chug glasses.
 <<jump chugDrinkYN4>>
@@ -270,13 +271,13 @@ They take another sip from one of their fancy chug glasses.
 title: robynChugPlace1
 position: -504,715
 ---
-<<set $emotion to "Robynsmile">>
+<<SetAnimation Robyn Robyn_emo_happy true>>
 Robyn/Stranger: Glad you asked!
 Robyn/Stranger: This place is female owned by Betty, who had her own vision about it.
 Robyn/Stranger: She made the Chug Club without any partners or even architects from the outside
 Robyn/Stranger: They serve Mezcal and Tequila in different styles. They even won prizes with their concept of serving small cocktails to make it possible for everyone to get to know different tastes and try new things.
 Robyn/Stranger: As you have probably noticed, its pretty cozy here. It's actually one of my favorite places in Hamburg. 
-<<set $emotion to "Robynexcited">>
+<<SetAnimation Robyn Robyn_emo_excited true>>
 Robyn/Stranger: And I can smoke here so - perfect for me <3.
 Robyn/Stranger: Is there anything else you wanna know?
 <<jump chugMC4>>
@@ -296,23 +297,21 @@ position: 718,485
 ---
 Robyn: I am Robyn, pronouns are they/them please <3
 <<set $StrangerName to "Robyn">>
-<<set $emotion to "Robynsmile">>
+<<SetAnimation Robyn Robyn_emo_happy true>>
 Robyn: I was born and raised in Hamburg and know the beeest spots here. 
 Robyn: I could show you some of my favorite locations, so you won't need your "Insider App" anymore. 
 Robyn: Why did you move here? Is it your first own flat or shared apartment?
 Leonie: For my studies.
-<<set $emotion to "Leoniesmile">>
+<<SetAnimation Leonie Leonie_emo_Happy true>>
 Leonie: And yes this is the first time I live apart form my parents. I already miss them, but am sooo excited for the future in my own flat.
 Robyn: Do you already know people here?
 Leonie: 
 -> Not yet, I'm glad I met you. Maybe you can really show me your favorite places in Hamburg
-//+2
+<<AddBloom 2>>
 <<jump robynShowMe1>>
 -> I don't
-//+0
 <<jump robynNope1>>
 -> Not yet, could you write some of your recommendations down?
-//+0
 <<jump robynWrite1>>
 ===
 
@@ -321,16 +320,15 @@ position: 975,-74
 ---
 Robyn: Yeah! Sounds good! What do you like to see? What did you like in Stuttgart?
 Leonie: They definitely didn't have these Chugs. These are really really good. Thanks for recommenden them to me.
-<<set $emotion to "Leonieexcited">>
+<<SetAnimation Leonie Leonie_emo_excited true>>
 Leonie: 
 -> I liked museums, fleamarkets and to visit friends in their flats. But I am pretty open to see lots of new things. 
-//+2
+<<AddBloom 2>>
 <<jump LeonieOpen1>>
 -> I don't know. I didn't do much in Stuttgart apart from chilling at home.
-//+0
 <<jump LeonieClosed1>>
 -> Can we maybe check on our phones whats available in Hamburg. I am really open to new things.
-//+1
+<<AddBloom 1>>
 <<jump LeonieOpen1>>
 ===
 
@@ -339,16 +337,15 @@ position: 1198,369
 ---
 Robyn: Okay, we can change that! What do you like to see? What did you like in Stuttgart?
 Leonie: They definitely didn't have these Chugs. These are really really good. Thanks for recommenden them to me.
-<<set $emotion to "Leonieexcited">>
+<<SetAnimation Leonie Leonie_emo_excited true>>
 Leonie: 
 -> I liked museums, fleamarkets and to visit friends in their flats. But I am pretty open to see lots of new things. 
-//+2
+<<AddBloom 2>>
 <<jump LeonieOpen1>>
 -> I don't know. I didn't do much in Stuttgart apart from chilling at home.
-//+0
 <<jump LeonieClosed1>>
 -> Can we maybe check on our phones whats available in Hamburg. I am really open to new things.
-//+1
+<<AddBloom 1>>
 <<jump LeonieOpen1>>
 ===
 
@@ -361,13 +358,12 @@ Robyn: In a building that is called Jupiter next to Hauptbahnhof, there are alwa
 Robyn: It used to be a Karstadt Sport until a lot of Artists moved in. Do you wanna exchange numbers to meet up tomorrow? 
 Leonie: 
 -> That does sound nice! Lets do that.
-//+2
+<<AddBloom 2>>
 <<jump LeonieOpen2>>
 -> Yeah, but maybe not tomorrow. Let's check for another date via WhatsApp.
-//+1
+<<AddBloom 1>>
 <<jump LeonieWhatsapp1>>
 -> I can give you my Insta and write you when I finished unpacking.
-//+0
 <<jump LeonieInsta1>>
 ===
 
@@ -377,7 +373,7 @@ position: 1877,-575
 Robyn: Yayy, lets have another toast. 
 You drank until it was pretty late and left the Chug Club happy to have made another friend. 
 Luckily it was Saturday so the U3 was still running and you got home safely and fell to sleep pretty fast.
-<<jump intro6>>
+<<jump end>>
 ===
 
 title: LeonieWhatsapp1
@@ -386,7 +382,7 @@ position: 2031,-201
 Robyn: Okay sure, are you up for another Chug? 
 You drank until it was pretty late and left the Chug Club happy to have made another friend. 
 Luckily it was Saturday so the U3 was still running and you got home safely and fell to sleep pretty fast.
-<<jump intro6>>
+<<jump end>>
 ===
 
 title: LeonieInsta1
@@ -395,7 +391,7 @@ position: 2025,-378
 Robyn: Okay sure, just hit me up. 
 You finished your drink and left the Chug Club happy to have made contact to a person in Hamburg. 
 Luckily it was Saturday so the U3 was still running and you got home safely and fell to sleep pretty fast.
-<<jump intro6>>
+<<jump end>>
 ===
 
 title: LeonieClosed1
@@ -405,7 +401,7 @@ Robyn: So you just sat at home a lot? Lets exchange Insta to see what you coukd 
 Leonie: Yes, lets do that.
 You finished your drink and left the Chug Club happy to have made contact to a person in Hamburg. 
 Luckily it was Saturday so the U3 was still running and you got home safely and fell to sleep pretty fast.
-<<jump intro6>>
+<<jump end>>
 ===
 title: robynWrite1
 position: 1582,666
@@ -414,5 +410,10 @@ Robyn: Okay sure, let me write something down.
 Robyn took your napkin and scribbled some locations on it.
 You finished your drink and left the Chug Club happy to have made contact to a person in Hamburg. 
 Luckily it was Saturday so the U3 was still running and you got home safely and fell to sleep pretty fast.
-<<jump intro6>>
+<<jump end>>
+===
+
+title: end
+---
+<<setBackground End>>
 ===

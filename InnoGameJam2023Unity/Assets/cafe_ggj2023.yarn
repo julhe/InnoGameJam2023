@@ -72,7 +72,7 @@ position: 418,-55
     Mert: I'm a photography student and especially interested architecture. 
     Mert: Thats why this one was intruiging.
     Leonie: Oh cool!
-    //<<SetAnimation Mert Mert_emo_Happy true>>
+    //<<SetAnimation Mert Mert_emo_happy true>>
     He smiles.
     Mert: Thanks!
     Mert: We have an exhibition runing. Would you like to come?
