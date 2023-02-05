@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 47086
+  controlID: 49564
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 47087
+  controlID: 49565
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 47088
+  controlID: 49566
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,8 +224,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 703cfeff6e46feff884dfeff
-      m_LastClickedID: -115600
+      m_SelectedIDs: c86d0000
+      m_LastClickedID: 0
       m_ExpandedIDs: 884dfeff8253feff9a7bffffa27bffffaa7bffff5aa3ffff8ea6ffff96a6ffffcefaffffe6faffff14fbffff1efbffff26fbffff28fbffffb06d0000cadc0000dcdc000026dd00004add000054dd0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -557,9 +557,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 410.97504, y: 294.76953, z: -12.981715}
+    m_Target: {x: 579.82275, y: 217.41443, z: -12.38898}
     speed: 2
-    m_Value: {x: 410.97504, y: 294.76953, z: -12.981715}
+    m_Value: {x: 579.82275, y: 217.41443, z: -12.38898}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -610,9 +610,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 322.13776
+    m_Target: 245.72644
     speed: 2
-    m_Value: 322.13776
+    m_Value: 245.72644
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -705,21 +705,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Dev\Personal\InnoGameJam2023\InnoGameJam2023Unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 114}
-    m_SelectedIDs: 50cf0000
-    m_LastClickedID: 53072
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 92700000
+    m_LastClickedID: 28818
     m_ExpandedIDs: 0000000092700000c4700000c6700000d2e4000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -773,8 +773,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 703cfeff6e46feff884dfeff
-    m_LastClickedInstanceID: -111224
+    m_SelectedInstanceIDs: c86d0000
+    m_LastClickedInstanceID: 28104
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000e2e400005ee10000
     m_RenameOverlay:
@@ -890,7 +890,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 246
+    m_CachedPref: 267
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
