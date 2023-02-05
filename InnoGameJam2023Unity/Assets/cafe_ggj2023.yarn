@@ -11,13 +11,16 @@ position: -297,-57
 //-Struggles at making friends
 //-Studies photography in UE Altona
 //photography nerd
+<<ShowCharacter Leonie true>>
 You feel up for a piece of nice cake and some Chai Latte with a dash of caramel. 
 While riding the moving van you saw a café in Ottensen and decide to go there today. 
 Ottensen is a part of Altona, one of the 104 quarters of Hamburg. 
+<<SetBackground Cafe>>
 The café is filled with wooden furniture. You could say that it has a hipster touch to it. 
 It's pretty cozy so, you sit down with your Laptop. 
 There was only one free spot.
 Next to you is young man, who has a camera hanging around his neck.
+<<ShowCharacter Mert true>>
 The camera especially catches your eye, it is not the kind of camera you usually see.
 THAT ONE is vintage.
 <<jump Cafe_Opener>>
@@ -34,6 +37,7 @@ position: -59,-58
     <<jump Cafe_Opener>>
 
 -> Ask him about the camera. (Continue)
+<<SetAnimation Leonie Leonie_emo_Happy true>>
     Leonie: Hey, thats a cool camera! What model is that, I've never seen it before.
     <<jump Cafe_TheCamera>>
 
@@ -65,7 +69,7 @@ position: 418,-55
     Mert: I'm a photography student and especially interested architecture. 
     Mert: Thats why this one was intruiging.
     Leonie: Oh cool!
-    //<<SetAnimation Mert Mert_emo_smile true>>
+    //<<SetAnimation Mert Mert_emo_Happy true>>
     He smiles.
     Mert: Thanks!
     Mert: We have an exhibition runing. Would you like to come?
@@ -82,5 +86,7 @@ Leonie: Same! Have a good one.
 You finish your cake and drink your Chai Latte, stuff the sheet into your 
 bag and go home to unpack some boxes.
 
+<<ShowCharacter Leonie false>>
+<<SetAnimation Leonie Leonie_emo_Happy false>>
 <<jump intro6>>
 ===
