@@ -116,7 +116,6 @@ title: intro6
 //evtl besser formulieren
 <<SetBackground LoadingScreen>>
 <<AddBloom -1000>>
-<<SetAnimation Leonie false>>
 <<ShowCharacter Leonie true>>
 
 <<declare $VisitedGranny to false>>
@@ -127,28 +126,15 @@ New day new Leonie!
 //Be kind to the people around you, so that you can collect energy to grow your roots.
 // Leiste zeigen
 Which place of Hamburg do you wanna explore?
--> Ohlsdorf cemetery 
+-> Ohlsdorf cemetery <<if !visited("Granny_Intro")>>
     <<jump Granny_Intro>>
--> Chug Club in St. Pauli
-    <<jump chug1>>
--> Feldstraße in St. Pauli
+-> Feldstraße in St. Pauli <<if !visited("DJ_Intro")>>
     <<jump DJ_Intro>>
--> Cafe in Ottensen
+-> Cafe in Ottensen <<if !visited("cafe1")>>
     <<jump cafe1>>
+-> Chug Club in St. Pauli <<if visited("cafe1") && visited("DJ_Intro") && visited("Granny_Intro") >>
+    <<jump chug1>>
 
     //wenn 3 personen durch, dann schaltet sich der Chug Club frei
 
-===
-
-
-title: JumpTest1
----
-This Is Jump1;
-<<jump Jump2>>
-This is after jump 2
-===
-
-title: Jump2
----
-This is Jump2!
 ===
