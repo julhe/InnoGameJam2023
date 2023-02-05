@@ -35,7 +35,8 @@ public class YarnSprite : MonoBehaviour
     }
 
     void Start() {
-        GetComponent<MaskableGraphic>().color = Color.white.WithAlpha(0.0f);
+        Color clearWhite = new Color(1.0f, 1.0f, 1.0f, 0.0f);
+        GetComponent<MaskableGraphic>().color = clearWhite;
 
 
     }

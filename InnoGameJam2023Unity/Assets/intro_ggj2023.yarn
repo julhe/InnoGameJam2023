@@ -119,6 +119,11 @@ title: intro6
 <<SetBackground LoadingScreen>>
 <<AddBloom -1000>>
 <<ShowCharacter Leonie true>>
+
+<<declare $VisitedGranny to false>>
+<<declare $VisitedOttensen to false>>
+<<declare $VisitedFeldstraße to false>>
+
 New day new Leonie!
 Which place of Hamburg do you wanna explore?
 -> Ohlsdorf cemetery 
@@ -132,4 +137,17 @@ Which place of Hamburg do you wanna explore?
 
     //wenn 3 personen durch, dann schaltet sich der Chug Club frei
 
+===
+
+
+title: JumpTest1
+---
+This Is Jump1;
+<<jump Jump2>>
+This is after jump 2
+===
+
+title: Jump2
+---
+This is Jump2!
 ===
