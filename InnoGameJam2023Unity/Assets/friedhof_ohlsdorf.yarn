@@ -5,27 +5,27 @@ position: -198,297
 Ohlsdorf - Cemetery.
 You felt like your monstera alone is not green enough, you crave for some more nature around you. 
 You find the the Ohlsdorf Cemetery on Google maps. They wrote that it's the
-biggest park cemetery in the world. You found out that it exists since 1877.
+biggest park cemetery in the world. It exists since 1877.
 So why not pay it a visit?
 <<SetBackground Ohlsdorf>>
 <<ShowCharacter Leonie true>>
 You start strolling around and come along a row of graves,
 where an old lady stands in front of one of them with fresh flowers.
 <<ShowCharacter Granny true>>
-Shes tapping on her phone and seems upset.
+She's tapping on her phone and seems upset.
 Just as you pass her by...
 
-Granny: Young lady, could you help me this?
+Granny: Young lady, could you help me?
 Leonie:
 -> "Okay, but just for a moment."
-<<AddBloom 2>>
+    <<AddBloom 2>>
 -> Ignore her
     You want to but can't. Who woudn't help an old lady?
     Shes propably visiting the grave of her relatives.
     Have you no heart?
 
 Granny: I want to take a picture and send it to my family. But it says...
-She's adjusting her glass.
+She's adjusting her glasses.
 Granny: ...you are not part of this group.
 <<jump Granny_Phone>>
 
@@ -37,12 +37,12 @@ position: 46,297
 She pulls out a hankerchief and sneezes into it.
 Leonie:
 -> "Hm, Can you show me your phone?" (Continue)
+    <<AddBloom 2>>
     She steps beside you, holding her phone closer to you.
     On her phone screen, you make out the familiar layout of an instant messanger.
     On top it reads: <i>Not part of the group "+00491...".</i>
     //umformulieren
     You can't read more as the enourmous font size makes the word "screen real-estate" sound like a joke.
-    <<AddBloom 2>>
     <<jump Granny_Discussion>>
 -> "It means that you are not part of that group, I guess?" 
     Granny: But why? This is my family!
@@ -55,7 +55,7 @@ position: 298,297
 -> "Maybe you left the group on accident?"
     Granny: Did I?
     Granny: I get so confused with this thing. :( 
-   // <<SetAnimation Granny Granny_emo_sad true>>
+    // <<SetAnimation Granny Granny_emo_sad true>>
     She's sounds almost whiney.
     <<jump Granny_Discussion>>
 -> "What was the last thing you wrote?" (Continue)
@@ -136,7 +136,7 @@ position: 1256,324
 ---
 Leonie:
 -> "Such pretty flowers. Did you bring them here?"
-<<AddBloom 2>>
+    <<AddBloom 2>>
     Granny: Thank you!
     // <<SetAnimation Granny Granny_emo_dreamy true>>
     I did. I loved my huband so much!
