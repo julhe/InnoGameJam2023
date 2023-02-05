@@ -1,6 +1,7 @@
 title: DJ_Intro
 position: -23,-50
 ---
+<<ShowCharacter Leonie true>>
 You heard from your friends that they had a pretty nice time at the Übel und Gefährlich in the Bunker at Feldstraße.
 Since you are pretty curious, you decide to check it out.
 <<SetBackground Bunker>>
