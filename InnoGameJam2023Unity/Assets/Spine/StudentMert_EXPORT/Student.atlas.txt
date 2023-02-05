@@ -1,0 +1,15 @@
+Student.png
+size:2048,512
+filter:Linear,Linear
+pma:true
+Eye_blink
+bounds:141,30,115,36
+Student
+bounds:6,72,425,740
+rotate:90
+glasses
+bounds:6,6,129,60
+head
+bounds:752,12,277,485
+smile
+bounds:1035,358,112,139

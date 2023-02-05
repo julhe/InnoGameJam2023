@@ -3,6 +3,7 @@ position: 291,-1183
 ---
 
 //<<set $location to "rain">> NICE TO HAVE
+<<wait 1.0>>
 <<SetBackground home>>
 03.03. 2023 - Hamburg 
 Weather - Rainy
@@ -121,6 +122,9 @@ position: 492,-124
 You take a shower, shove some candy from your parents gift basket into your mouth and get dressed in your feel-good clothes. 
 Your favorite scarf, your mom gave you 5 years ago, lets you feel nostalgic, as you wrap it around your neck. 
 You open your phone to check out "Best insider tipps in Hamburger 2023".
+Be kind to the people around you, so that you can collect energy to grow your roots.
+<<SetUIVisible true>>
+<<wait 1.0>>
 <<jump intro6>>
 ===
 title: intro6
@@ -135,7 +139,7 @@ position: 737,-265
 <<declare $VisitedFeldstraße to false>>
 
 New day new Leonie!
-//Be kind to the people around you, so that you can collect energy to grow your roots.
+//
 // Leiste zeigen
 Which place of Hamburg do you wanna explore?
 -> Ohlsdorf cemetery <<if !visited("Granny_Intro")>>
