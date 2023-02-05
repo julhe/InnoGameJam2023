@@ -224,9 +224,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 8c720000
-      m_LastClickedID: 29324
-      m_ExpandedIDs: 00fbffff10720000aa720000
+      m_SelectedIDs: fa740000
+      m_LastClickedID: 0
+      m_ExpandedIDs: f6fafffffefaffff00fbffff10720000aa720000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -557,9 +557,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 593.49927, y: 278.03473, z: 0.14001909}
+    m_Target: {x: 652.71936, y: 270.80203, z: -1.2816513}
     speed: 2
-    m_Value: {x: 593.49927, y: 278.03473, z: 0.14001909}
+    m_Value: {x: 627.10315, y: 259.9376, z: -1.487313}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -610,9 +610,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 294.28976
+    m_Target: 436.457
     speed: 2
-    m_Value: 294.28976
+    m_Value: 457.02304
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -705,22 +705,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages/com.esotericsoftware.spine.spine-unity/Runtime/spine-unity/Materials
+    - Assets/Sprites
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Packages/com.esotericsoftware.spine.spine-unity/Runtime/spine-unity/Materials
+  - Assets/Sprites
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Dev\Personal\InnoGameJam2023\InnoGameJam2023Unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 626}
-    m_SelectedIDs: 9aab0000
-    m_LastClickedID: 43930
-    m_ExpandedIDs: 00000000cc740000ce740000d0740000d2740000d4740000d674000024750000a0b6000080bf000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 203}
+    m_SelectedIDs: fa740000
+    m_LastClickedID: 29946
+    m_ExpandedIDs: 00000000cc740000ce740000d0740000d2740000d4740000d674000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -773,9 +773,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 8c720000
-    m_LastClickedInstanceID: 29324
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: fa740000
+    m_LastClickedInstanceID: 29946
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000e2e400005ee10000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -890,7 +890,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 246
+    m_CachedPref: 362
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
