@@ -14,7 +14,7 @@ public class BloomManager : MonoBehaviour {
         FillImageContainer.fillAmount = 0.0f;
     }
 
-    [SerializeField] Image BloomImageContainer, FillImageContainer;
+    [SerializeField] Image BloomImageContainer, FillImageContainer, FillOutline;
     [SerializeField] Color BloomBrownish;
 
     [SerializeField] Sprite[] BloomSprites;
@@ -39,7 +39,7 @@ public class BloomManager : MonoBehaviour {
     }
 
     void SetBloomUIBrownInternal(bool state) {
-        FillImageContainer.DOColor(state ? BloomBrownish : Color.white, 3.0f);
+        FillOutline.DOColor(state ? BloomBrownish : Color.white, 3.0f);
     }
     
     void AddBloomInternal(int value) {
