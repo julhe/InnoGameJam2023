@@ -39,9 +39,9 @@ position: -59,-58
     <<jump Cafe_Opener>>
 
 -> Leonie: Ask him about the camera. (Continue)
-<<SetAnimation Leonie Leonie_emo_Happy true>>
+    <<SetAnimation Leonie Leonie_emo_Happy true>>
     Leonie: Hey, thats a cool camera! What model is that, I've never seen it before.
-   <<AddBloom 4>>
+    <<AddBloom 4>>
     <<jump Cafe_TheCamera>>
 
 ===
@@ -66,7 +66,6 @@ position: 418,-55
 ---
 -> Leonie: How did you get that camera?
     Mert: It was a gift, from my uncle.
- 
     <<jump Cafe_Conversation>>
 -> Leonie: Your book also seems interesting. What is it about?
     Mert: I just got this from the university library. 
