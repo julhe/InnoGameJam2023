@@ -177,11 +177,12 @@ title: chugMC5
 position: 250,-489
 ---
 -> Leonie: Sounds good. I'll take the Chug Flight. 
-<<jump chugDrinkY1>>
-//+2
+    <<AddBloom 2>>
+    <<jump chugDrinkY1>>
+
 -> Leonie: Hmmm, I don't like surprises. I think I'll have another look at the menu
-<<jump chugDrinkN1>>
-//+0
+    <<jump chugDrinkN1>>
+
 ===
 
 title: chugDrinkY1
@@ -312,12 +313,12 @@ Leonie: And yes this is the first time I live apart form my parents. I already m
 Robyn: Do you already know people here?
 Leonie: 
 -> Not yet, I'm glad I met you. Maybe you can really show me your favorite places in Hamburg
-<<AddBloom 2>>
-<<jump robynShowMe1>>
+    <<AddBloom 2>>
+    <<jump robynShowMe1>>
 -> I don't
-<<jump robynNope1>>
+    <<jump robynNope1>>
 -> Not yet, could you write some of your recommendations down?
-<<jump robynWrite1>>
+    <<jump robynWrite1>>
 ===
 
 title: robynShowMe1
@@ -328,13 +329,13 @@ Leonie: They definitely didn't have these Chugs. These are really really good. T
 <<SetAnimation Leonie Leonie_emo_excited true>>
 Leonie: 
 -> I liked museums, fleamarkets and to visit friends in their flats. But I am pretty open to see lots of new things. 
-<<AddBloom 2>>
-<<jump LeonieOpen1>>
+    <<AddBloom 2>>
+    <<jump LeonieOpen1>>
 -> I don't know. I didn't do much in Stuttgart apart from chilling at home.
-<<jump LeonieClosed1>>
+    <<jump LeonieClosed1>>
 -> Can we maybe check on our phones whats available in Hamburg. I am really open to new things.
-<<AddBloom 1>>
-<<jump LeonieOpen1>>
+    <<AddBloom 1>>
+    <<jump LeonieOpen1>>
 ===
 
 title: robynNope1
@@ -345,13 +346,13 @@ Leonie: They definitely didn't have these Chugs. These are really really good. T
 <<SetAnimation Leonie Leonie_emo_excited true>>
 Leonie: 
 -> I liked museums, fleamarkets and to visit friends in their flats. But I am pretty open to see lots of new things. 
-<<AddBloom 2>>
-<<jump LeonieOpen1>>
+    <<AddBloom 2>>
+    <<jump LeonieOpen1>>
 -> I don't know. I didn't do much in Stuttgart apart from chilling at home.
-<<jump LeonieClosed1>>
+    <<jump LeonieClosed1>>
 -> Can we maybe check on our phones whats available in Hamburg. I am really open to new things.
-<<AddBloom 1>>
-<<jump LeonieOpen1>>
+    <<AddBloom 1>>
+    <<jump LeonieOpen1>>
 ===
 
 title: LeonieOpen1
@@ -363,13 +364,13 @@ Robyn: In a building that is called Jupiter next to Hauptbahnhof, there are alwa
 Robyn: It used to be a Karstadt Sport until a lot of Artists moved in. Do you wanna exchange numbers to meet up tomorrow? 
 Leonie: 
 -> That does sound nice! Lets do that.
-<<AddBloom 2>>
-<<jump LeonieOpen2>>
+    <<AddBloom 2>>
+    <<jump LeonieOpen2>>
 -> Yeah, but maybe not tomorrow. Let's check for another date via WhatsApp.
-<<AddBloom 1>>
-<<jump LeonieWhatsapp1>>
+    <<AddBloom 1>>
+    <<jump LeonieWhatsapp1>>
 -> I can give you my Insta and write you when I finished unpacking.
-<<jump LeonieInsta1>>
+    <<jump LeonieInsta1>>
 ===
 
 title: LeonieOpen2
