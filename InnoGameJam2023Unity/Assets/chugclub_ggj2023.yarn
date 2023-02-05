@@ -16,7 +16,7 @@ Maybe you'll be able to take a picture of it to show it to your friends on WhatA
 title: robyn1
 position: -515,-514
 ---
-<<setBackground ChugClub>>
+<<SetBackground ChugClub>>
 Stranger: (cough cough)
 Stranger: Don't look so scared, I am not sick. 
 Stranger: I just got the smoke (cough) into the wrong hole.
@@ -118,7 +118,7 @@ position: -134,152
 ---
 <<SetAnimation Robyn Robyn_emo_happy true>>
 <<declare $HasOrderedDrink to false>>
-<<declare $StrangerName to "Stranger">>
+<<declare $StrangerName to "The Stranger">>
 -> Leonie: What kind of drink should I try here? <<if !$HasOrderedDrink>>
     <<set $HasOrderedDrink to true>>
     <<AddBloom 2>>
@@ -131,7 +131,7 @@ position: -134,152
 -> Leonie: Is the tap water for free?
     <<jump robynTapwater1>>
 /
--> Leonie: How about you? Are you from here? What's your name? <<if $StrangerName == "Stranger">>
+-> Leonie: How about you? Are you from here? What's your name? <<if $StrangerName == "The Stranger">>
     <<AddBloom 2>>
     <<jump robynName1>>
 ===
@@ -139,7 +139,7 @@ position: -134,152
 title: robynDrink1
 position: -133,321
 ---
-The stranger/Robyn opens the menu, which is a basically a pretty book with a textile hardcover
+{$StrangerName} opens the menu, which is a basically a pretty book with a textile hardcover
 and puts it between both of you. They show you the first page which says 
 <b>"WELCOME TO THE CHUG CLUB"<br>________<br>CHUG FLIGHT</b>
 and point their finger on the design of 3 small drinks. 
@@ -151,13 +151,13 @@ title: robynDrink2
 position: -134,496
 ---
 //Robyns Name known?
-Robyn/Stranger: If you're open for surprises you could take the Chug Flight. 
+{$StrangerName}: If you're open for surprises you could take the Chug Flight. 
 <<SetAnimation Robyn Robyn_emo_excited true>>
-Robyn/Stranger: Or I'd say I absolutely <b>recommend</b> you the Chug Flight. 
-Robyn/Stranger: It's 3 small drinks with 2 drinks available the whole week and 1 drink
-Robyn/Stranger: which is changed daily, the so called "Choice Of The Day".
-Robyn/Stranger: In the many drinks I had, which I really dont want t count I only had one that
-Robyn/Stranger: I didn't like.
+{$StrangerName}: Or I'd say I absolutely <b>recommend</b> you the Chug Flight. 
+{$StrangerName}: It's 3 small drinks with 2 drinks available the whole week and 1 drink
+{$StrangerName}: which is changed daily, the so called "Choice Of The Day".
+{$StrangerName}: In the many drinks I had, which I really dont want t count I only had one that
+{$StrangerName}: I didn't like.
 <<jump robynDrink3>>
 ===
 
@@ -182,20 +182,20 @@ position: 250,-489
 title: chugDrinkY1
 position: 508,-282
 ---
-//Robyn/Stranger decision 
-Robyn/Stranger calls Raphael the barkeeper and enthusiastically tells him your order. 
+//{$StrangerName} decision 
+{$StrangerName} calls Raphael the barkeeper and enthusiastically tells him your order. 
 <<jump chugDrinkY2>>
 ===
 
 title: chugDrinkY2
 position: 840,-289
 ---
-//Robyn/Stranger decision 
-Robyn/Stranger: Raphi, you know what I also take another chug flight. This time its it 
-Robyn/Stranger: f**cking brilliant. 
-Robyn/Stranger: Let's drink together...
-Robyn/Stranger: ...
-Robyn/Stranger: What was your name again?
+//{$StrangerName} decision 
+{$StrangerName}: Raphi, you know what I also take another chug flight. This time its it 
+{$StrangerName}: f**cking brilliant. 
+{$StrangerName}: Let's drink together...
+{$StrangerName}: ...
+{$StrangerName}: What was your name again?
 <<SetAnimation Leonie Leonie_emo_excited true>>
 Leonie: Haha, its Leonie, thanks for the suggestion. I am so excited for the drinks!
 <<jump chugDrinkY3>>
@@ -216,14 +216,14 @@ position: 1861,-780
 You take a few pictures with your phone. 
 Leonie: Ok, this is better than taking photos of the Penny-Markt.
 <<SetAnimation Leonie Leonie_emo_lol true>>
-Robyn/Stranger: You wanted to do WHAT? 
+{$StrangerName}: You wanted to do WHAT? 
 <<SetAnimation Robyn Robyn_emo_lol true>>
 Leonie: Well I saw a documentary of the Penny supermarket on Youtube with my friends in Stuttgart.
 Leonie: I thought it would be funny to send them pictures of it. 
-Robyn/Stranger: LOOOOL. AHAHAHAHAAHAHAHA. NO WAY!
+{$StrangerName}: LOOOOL. AHAHAHAHAAHAHAHA. NO WAY!
 Leonie: Hahahaha okay, I guess it is something people from Hamburg would never do. 
-Robyn/Stranger: No we wouldn't, but anyways - Welcome to Hamburg! 
-Robyn/Stranger: Cheers!
+{$StrangerName}: No we wouldn't, but anyways - Welcome to Hamburg! 
+{$StrangerName}: Cheers!
 <<SetAnimation Leonie Leonie_emo_Happy true>>
 <<SetAnimation Robyn Robyn_emo_happy true>>
 You clink glasses and smile at each other.
@@ -234,9 +234,9 @@ title: chugDrinkN1
 position: 620,-574
 ---
 You browse through the menu and see a looot of fancy drinks. It takes you forever to read all the descriptions.
-Robyn/Stranger: Do you like sour, sweet or bitter drinks? 
+{$StrangerName}: Do you like sour, sweet or bitter drinks? 
 Leonie: I prefer sweet!
-Robyn/Stranger: Okay thenn, I'd say you could try the Golden Nugget.
+{$StrangerName}: Okay thenn, I'd say you could try the Golden Nugget.
 Leonie: Thanks, sounds like a good Idea
 <<AddBloom 1>>
 <<jump chugDrinkN2>>
@@ -245,25 +245,25 @@ Leonie: Thanks, sounds like a good Idea
 title: chugDrinkN2
 position: 865,-567
 ---
-//Robyn/Stranger decision 
-Robyn/Stranger calls the barkeeper and enthusiastically tells him your order. 
+//{$StrangerName} decision 
+{$StrangerName} calls the barkeeper and enthusiastically tells him your order. 
 <<jump chugDrinkN3>>
 ===
 
 title: chugDrinkN3
 position: 1113,-571
 ---
-//Robyn/Stranger decision 
-Robyn/Stranger: Raphi, you know what I take another chug flight. This time its it 
-Robyn/Stranger: f**cking brilliant. 
-Robyn/Stranger: Let's drink together...
-Robyn/Stranger: ...
-Robyn/Stranger: What was your name again?
+//{$StrangerName} decision 
+{$StrangerName}: Raphi, you know what I take another chug flight. This time its it 
+{$StrangerName}: f**cking brilliant. 
+{$StrangerName}: Let's drink together...
+{$StrangerName}: ...
+{$StrangerName}: What was your name again?
 <<SetAnimation Leonie Leonie_emo_excited true>>
 Leonie: Haha, its Leonie, thanks for the suggestion. I am so excited for the drinks!
-Robyn/Stranger: You're welcome
+{$StrangerName}: You're welcome
 <<SetAnimation Robyn Robyn_emo_excited true>>
-Robyn/Stranger: Is there anything else you wanna know?
+{$StrangerName}: Is there anything else you wanna know?
 They take another sip from one of their fancy chug glasses.
 <<jump chugDrinkYN4>>
 ===
@@ -272,23 +272,23 @@ title: robynChugPlace1
 position: -504,715
 ---
 <<SetAnimation Robyn Robyn_emo_happy true>>
-Robyn/Stranger: Glad you asked!
-Robyn/Stranger: This place is female owned by Betty, who had her own vision about it.
-Robyn/Stranger: She made the Chug Club without any partners or even architects from the outside
-Robyn/Stranger: They serve Mezcal and Tequila in different styles. They even won prizes with their concept of serving small cocktails to make it possible for everyone to get to know different tastes and try new things.
-Robyn/Stranger: As you have probably noticed, its pretty cozy here. It's actually one of my favorite places in Hamburg. 
+{$StrangerName}: Glad you asked!
+{$StrangerName}: This place is female owned by Betty, who had her own vision about it.
+{$StrangerName}: She made the Chug Club without any partners or even architects from the outside
+{$StrangerName}: They serve Mezcal and Tequila in different styles. They even won prizes with their concept of serving small cocktails to make it possible for everyone to get to know different tastes and try new things.
+{$StrangerName}: As you have probably noticed, its pretty cozy here. It's actually one of my favorite places in Hamburg. 
 <<SetAnimation Robyn Robyn_emo_excited true>>
-Robyn/Stranger: And I can smoke here so - perfect for me <3.
-Robyn/Stranger: Is there anything else you wanna know?
+{$StrangerName}: And I can smoke here so - perfect for me <3.
+{$StrangerName}: Is there anything else you wanna know?
 <<jump chugMC4>>
 ===
 
 title: robynTapwater1
 position: 2032,55
 ---
-Robyn/Stranger: Eh... Well yeah. I mean it's on the table 
+{$StrangerName}: Eh... Well yeah. I mean it's on the table 
 They look at you questioningly
-<<$StrangerName>>: Is there anything else you wanna know?
+{$StrangerName}: Is there anything else you wanna know?
 <<jump chugMC4>>
 ===
 
