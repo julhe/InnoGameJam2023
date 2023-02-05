@@ -1,12 +1,10 @@
 title: intro
 ---
 
-<<declare $emotion to "">>
 //<<set $location to "rain">> NICE TO HAVE
-<<SetBackground LoadingScreen>>
+<<SetBackground home>>
 03.03. 2023 - Hamburg 
 Weather - Rainy
-<<SetBackground home>>
 <<ShowCharacter Leonie true>>
 You are exhausted from your move. 800 km in one day and carrying all of your belongings
 into and out of the truck was harder than you thought. 
@@ -18,29 +16,28 @@ The monstera your parents gifted you is in dire need of water.
 
 title: MC1
 ---
-
-<<SetAnimation Leonie Leonie_emo_lol true>>
-<<AddBloom 2>>
-<<set $emotion to "exhausted">>
+//<<SetAnimation Leonie Leonie_emo_lol true>>
+//<<AddBloom 2>>
 Leonie: Man I wish I'd already knew people from here. Carrying all the boxes with only 
-<<AddBloom 2>>
+//<<AddBloom 2>>
 Leonie: mom, dad and Klement really drained my whole energy. At least at home I had my friends to help me. 
-<<SetAnimation Leonie Leonie_emo_lol false>>
-<<SetBloomImageBrown true>>
-<<AddBloom 2>>
-<<set $emotion to "sad">>
+//<<SetAnimation Leonie Leonie_emo_lol false>>
+//<<SetBloomImageBrown true>>
+//<<AddBloom 2>>
+<<SetAnimation Leonie Leonie_emo_sad true>>
 Leonie: I miss them. 
 
-<<SetBloomUIBrown  true>>
-<<AddBloom 8>>
+//<<SetBloomUIBrown  true>>
+//<<AddBloom 8>>
 <<jump intro2>>
 ===
 
 title: intro2
 ---
 You look around your new flat which is small, 
-<<set $emotion to "standard">> 
+<<SetAnimation Leonie Leonie_emo_sad false>>
 but lets your imagination run wild. 
+<<SetAnimation Leonie Leonie_emo_smile true>>
 Surely in a few weeks this place will be the coziest in the world and a place for 
 your many new aquaintances. 
 But enough for today!
@@ -61,6 +58,7 @@ Leonie: Maybe I can even meet new people.
 Leonie: I can unbox my stuff anytime anyways.
 Leonie: When do I want to get up? 
 <<SetBackground home>>
+<<SetAnimation Leonie Leonie_emo_smile false>>
 <<ShowCharacter Leonie true>>
 Leonie: 10 sounds good...
 <<ShowCharacter Leonie false>>
@@ -118,8 +116,11 @@ title: intro6
 //evtl besser formulieren
 <<SetBackground LoadingScreen>>
 <<AddBloom -1000>>
+<<SetAnimation Leonie false>>
 <<ShowCharacter Leonie true>>
 New day new Leonie!
+//Be kind to the people around you, so that you can collect energy to grow your roots.
+// Leiste zeigen
 Which place of Hamburg do you wanna explore?
 -> Ohlsdorf cemetery 
     <<jump Granny_Intro>>

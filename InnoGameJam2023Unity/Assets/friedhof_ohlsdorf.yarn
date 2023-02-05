@@ -18,6 +18,7 @@ Just as you pass her by...
 Granny: Young lady, could you help me this?
 Leonie:
 -> "Okay, but just for a moment."
+<<AddBloom 2>>
 -> Ignore her
     You want to but can't. Who woudn't help an old lady?
     Shes propably visiting the grave of her relatives.
@@ -41,6 +42,7 @@ Leonie:
     On top it reads: <i>Not part of the group "+00491...".</i>
     //umformulieren
     You can't read more as the enourmous font size makes the word "screen real-estate" sound like a joke.
+    <<AddBloom 2>>
     <<jump Granny_Discussion>>
 -> "It means that you are not part of that group, I guess?" 
     Granny: But why? This is my family!
@@ -53,13 +55,14 @@ position: 298,297
 -> "Maybe you left the group on accident?"
     Granny: Did I?
     Granny: I get so confused with this thing. :( 
-   // <<SetAnimation >>
+   // <<SetAnimation Granny Granny_emo_sad true>>
     She's sounds almost whiney.
     <<jump Granny_Discussion>>
 -> "What was the last thing you wrote?" (Continue)
     Granny: Well I wanted to tell them that I'm a little sick and...
     She scrolls up the text messages. Her last message appears.
     It reads - <i>Waltraut: *PukeEmoji* *PukeEmoji* *PukeEmoji* </i>
+    // <<SetAnimation Granny Granny_emo_sad false>>
     Granny: What? No, no, no thats surley NOT what I wanted to write.
     <<jump Granny_Son>>
 ===
@@ -72,19 +75,22 @@ Leonie: "Who made this group?"
 Granny: My son.
 Granny: If I wrote that...
 The topic makes her visibly uncomftable.
-//emotion: sad
+// <<SetAnimation Granny Granny_emo_sad true>>
 Leonie: I mean I could see that one could... maybe... read it as offensive.
 She seems slightly more uncomftable.
-//emotion distressed
+// <<SetAnimation Granny Granny_emo_distressed true>>
 
 Leonie: ALTROUGH it's odd to throw someone out of a family group for this.
 Granny: You mean...
 
 -> "Maybe you should call him?" (Continue)
+    <<AddBloom 2>>
     <<jump Granny_CallSon>>
 -> "Maybe you should text him?" (Continue)
     Granny: I can try.
+    <<AddBloom 2>>
     <<jump Granny_TextSon>>
+    
 ===
 
 title: Granny_TextSon
@@ -100,9 +106,10 @@ Granny: Can you show me how.
 You would roll your eyes, if you were sure she woldn't get wind of it. 
 So you hold it back at any cost, beacuse you don't want to upset her any more than she already is.
 Leonie: Yes.
-//emotion: smile
+// <<SetAnimation Granny Granny_emo_smile true>>
 
 You help her to open the camera app so that she can take a picture of the grave.
+<<AddBloom 2>>
 Granny: Thank you so much. I know how to do this in WhatsApp
 Granny: I didn't know my phone can do this.
 //frontkamerajoke?
@@ -120,7 +127,7 @@ After a short while she drops her arm.
 Granny: Hes not picking up.
 Leonie: You could text him?
 Granny: Of course!
-//emotion neutral
+// <<SetAnimation Granny Granny_emo_smile true>>
 <<jump Granny_TextSon>>
 ===
 
@@ -129,8 +136,9 @@ position: 1256,324
 ---
 Leonie:
 -> "Such pretty flowers. Did you bring them here?"
+<<AddBloom 2>>
     Granny: Thank you!
-    <<SetAnimation Granny DreamySmile>> 
+    // <<SetAnimation Granny Granny_emo_dreamy true>>
     I did. I loved my huband so much!
     <<jump Granny_Picture>>
 
