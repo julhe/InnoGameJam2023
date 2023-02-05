@@ -90,10 +90,12 @@ position: -212,-155
 ---
 04.03. 2023 - Home
 Weather - Cloudy
-Your phone rings in the typical Android way. A soft jingle, that lets you oversleep 
-from to time because it seriously isn't stressful or loud enough to wake you up. 
+Your phone rings in the typical, soft jingle, Android way. 
+//A soft jingle, that lets you oversleep from to time.
+It seriously isn't stressful or loud enough to wake you up. 
 <<SetBackground home>>
-This time it worked like a charm. You open your eyes.
+This time it actualy worked like a charm. 
+You open your eyes.
 <<ShowCharacter Leonie true>>
 A little bit disoriented you stare into the room. 
 Your gaze lingers on the unopened boxes. 
@@ -115,7 +117,7 @@ title: intro5
 position: 492,-124
 ---
 <<ShowCharacter Leonie false>>
-You take a shower, shove some candy from your parents gift basket, into your mouth and get dressed in your feel good clothes. 
+You take a shower, shove some candy from your parents gift basket into your mouth and get dressed in your feel-good clothes. 
 Your favorite scarf, your mom gave you 5 years ago, lets you feel nostalgic, as you wrap it around your neck. 
 You open your phone to check out "Best insider tipps in Hamburger 2023".
 <<jump intro6>>
