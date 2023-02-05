@@ -12,6 +12,7 @@ public class BloomManager : MonoBehaviour {
     void OnEnable() {
         Instance = this;
         FillImageContainer.fillAmount = 0.0f;
+        GetComponent<CanvasGroup>().alpha = 0.0f;
     }
 
     [SerializeField] Image BloomImageContainer, FillImageContainer, FillOutline;
@@ -40,6 +41,15 @@ public class BloomManager : MonoBehaviour {
 
     void SetBloomUIBrownInternal(bool state) {
         FillOutline.DOColor(state ? BloomBrownish : Color.white, 3.0f).SetEase(Ease.InBounce);
+    }
+
+    [YarnCommand("SetUIVisible")]
+    public static void SetUIVisible(bool state) {
+        Instance.SetUIVisibleInternal(state);
+    }
+
+    void SetUIVisibleInternal(bool state) {
+        GetComponent<CanvasGroup>().DOFade(state ? 1.0f : 0.0f, 2.0f);
     }
     
     void AddBloomInternal(int value) {
