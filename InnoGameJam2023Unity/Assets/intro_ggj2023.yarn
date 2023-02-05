@@ -124,7 +124,7 @@ Your favorite scarf, your mom gave you 5 years ago, lets you feel nostalgic, as 
 You open your phone to check out "Best insider tipps in Hamburger 2023".
 Be kind to the people around you, so that you can collect energy to grow your roots.
 <<SetUIVisible true>>
-<<wait 1.0>>
+<<wait 5.0>>
 <<jump intro6>>
 ===
 title: intro6
