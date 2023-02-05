@@ -20,12 +20,17 @@ title: MC1
 ---
 
 <<SetAnimation Leonie Leonie_emo_lol true>>
+<<AddBloom 2>>
 <<set $emotion to "exhausted">>
 Leonie: Man I wish I'd already knew people from here. Carrying all the boxes with only 
+<<AddBloom 2>>
 Leonie: mom, dad and Klement really drained my whole energy. At least at home I had my friends to help me. 
 <<SetAnimation Leonie Leonie_emo_lol false>>
+
+<<AddBloom 2>>
 <<set $emotion to "sad">>
 Leonie: I miss them. 
+<<AddBloom 8>>
 <<jump intro2>>
 ===
 
