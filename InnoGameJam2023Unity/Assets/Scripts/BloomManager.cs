@@ -30,7 +30,7 @@ public class BloomManager : MonoBehaviour {
     }
 
     void SetBloomBrownInternal(bool state) {
-        BloomImageContainer.DOColor(state ? BloomBrownish : Color.white, 3.0f);
+        BloomImageContainer.DOColor(state ? BloomBrownish : Color.white, 3.0f).SetEase(Ease.InBounce);
     }
     
     [YarnCommand("SetBloomUIBrown")]
@@ -39,7 +39,7 @@ public class BloomManager : MonoBehaviour {
     }
 
     void SetBloomUIBrownInternal(bool state) {
-        FillOutline.DOColor(state ? BloomBrownish : Color.white, 3.0f);
+        FillOutline.DOColor(state ? BloomBrownish : Color.white, 3.0f).SetEase(Ease.InBounce);
     }
     
     void AddBloomInternal(int value) {
