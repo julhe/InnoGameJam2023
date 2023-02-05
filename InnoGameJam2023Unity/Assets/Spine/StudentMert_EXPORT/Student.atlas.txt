@@ -11,3 +11,5 @@ glasses
 bounds:6,6,129,60
 head
 bounds:752,12,277,485
+smile
+bounds:1035,358,112,139
