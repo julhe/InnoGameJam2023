@@ -876,7 +876,7 @@ MonoBehaviour:
   initialSkinName: 
   initialFlipX: 0
   initialFlipY: 0
-  startingAnimation: Leonie_idle_withblink
+  startingAnimation: Leonie_emo_excited
   startingLoop: 1
   timeScale: 1
   freeze: 0
